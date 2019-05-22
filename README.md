@@ -1,73 +1,6 @@
 # 每日的学习课程
 
-## 2019-05-21
-
-### 执行环境（Execution Context）和执行栈 Context Stack
-
-#### 执行环境
-js是单线程语言,即同一时间只能执行一个任务。
-当js解释器初始化代码的时候，默认进入全局的执行环境，每调用一个函数，js解释器会创建一个新的执行环境。
-```
-var a = 1; // 1.默认进入全局执行环境
-
-function b () {  // 3. 进入b的执行环境
-    function c() { 5.进入 c的执行环境
-
-    }
-    c() 4. 在b的执行环境里面 调用 c 创建c的执行环境
-}
-b()  // 2.调用 b 创建b的执行环境
-
-```
-一个程序只有一个全局对象，即window对象
-函数执行环境：函数调用过程会创建函数的执行环境，因此每个程序可以有无数个函数执行环境。
-Eval执行环境：eval代码特定的环境。
-#### 执行栈(Context Stack)
-```
-function foo(i) {
-  if (i < 0) return;
-  console.log('begin:' + i);
-  foo(i - 1);
-  console.log('end:' + i);
-}
-foo(2);
-```
-存储代码运行时的执行环境，就是执行栈。
-栈遵循的是前进后出。
-
-**创建全局执行环境-推入当前执行栈-调用一个函数-创建新的执行环境-推入运行栈的顶端-发生新的函数调用-创建环境-推入当前执行栈顶端-无新函数调用-运行栈顶端执行完成-执行栈弹出该函数所在的执行环境-控制权交给下一个执行环境-直到全局执行环境（或者浏览器关闭，全局环境随之销毁**
-
-因此输出的结果为:
-```
-begin:2
-begin:1
-begin:0
-end:0
-end:1
-end:2
-```
-下面解析以下代码运行时的运行栈
-```
-funciton add ( a, b){
-    return a + b;
-}
-function consoleAdd( x, y) {
-    var sum = add (x + y);
-    console.log(sum)
-}
-consleAdd(1,2);
-```
-
-1. 进入全局作用域，调用全局方法
-2. 调用consoleAdd(1,2),将consoleAdd()加入运行栈,进入consoleAdd(1,2)环境。
-3. 进入consoleAdd()作用域,调用 add(x+y),运行栈将 add(x+y) 放在consoleAdd(1,2)之上,进入add(x+y)环境.
-4. 无方法调用，执行return，将add(x+y)弹出,返回consoleAdd(1,2)环境。
-5. 进入consoleAdd(1,2)环境，调用console.log(),运行栈将console.log()放在consoleAdd(1,2)之上.
-6. 执行console.log(),将console.log()弹出，
-7.返回全局作用域，无其他方法调用，调用consoleAdd(),清空运行栈。
-
-
-## 2019-05-22
+## 2019-05-20
 
 ### http 常见的状态码
 
@@ -140,3 +73,138 @@ consleAdd(1,2);
 + **503 Service Unavailable**
 
 该状态码表明服务器暂时处于超负载或正在进行停机维护，现在无法处理请求。如果事先得知解除以上状况需要的时间，最好写入 RetryAfter 首部字段再返回 给客户端
+
+## 2019-05-21
+
+### 执行环境（Execution Context）和执行栈 Context Stack
+
+#### 执行环境
+js是单线程语言,即同一时间只能执行一个任务。
+当js解释器初始化代码的时候，默认进入全局的执行环境，每调用一个函数，js解释器会创建一个新的执行环境。
+```
+var a = 1; // 1.默认进入全局执行环境
+
+function b () {  // 3. 进入b的执行环境
+    function c() { 5.进入 c的执行环境
+
+    }
+    c() 4. 在b的执行环境里面 调用 c 创建c的执行环境
+}
+b()  // 2.调用 b 创建b的执行环境
+
+```
+一个程序只有一个全局对象，即window对象
+函数执行环境：函数调用过程会创建函数的执行环境，因此每个程序可以有无数个函数执行环境。
+Eval执行环境：eval代码特定的环境。
+#### 执行栈(Context Stack)
+```
+function foo(i) {
+  if (i < 0) return;
+  console.log('begin:' + i);
+  foo(i - 1);
+  console.log('end:' + i);
+}
+foo(2);
+```
+存储代码运行时的执行环境，就是执行栈。
+栈遵循的是前进后出。
+
+**创建全局执行环境-推入当前执行栈-调用一个函数-创建新的执行环境-推入运行栈的顶端-发生新的函数调用-创建环境-推入当前执行栈顶端-无新函数调用-运行栈顶端执行完成-执行栈弹出该函数所在的执行环境-控制权交给下一个执行环境-直到全局执行环境（或者浏览器关闭，全局环境随之销毁**
+
+因此输出的结果为:
+```
+begin:2
+begin:1
+begin:0
+end:0
+end:1
+end:2
+```
+下面解析以下代码运行时的运行栈
+```
+funciton add ( a, b){
+    return a + b;
+}
+function consoleAdd( x, y) {
+    var sum = add (x + y);
+    console.log(sum)
+}
+consleAdd(1,2);
+```
+
+1. 进入全局作用域，调用全局方法
+2. 调用consoleAdd(1,2),将consoleAdd()加入运行栈,进入consoleAdd(1,2)环境。
+3. 进入consoleAdd()作用域,调用 add(x+y),运行栈将 add(x+y) 放在consoleAdd(1,2)之上,进入add(x+y)环境.
+4. 无方法调用，执行return，将add(x+y)弹出,返回consoleAdd(1,2)环境。
+5. 进入consoleAdd(1,2)环境，调用console.log(),运行栈将console.log()放在consoleAdd(1,2)之上.
+6. 执行console.log(),将console.log()弹出，
+7.返回全局作用域，无其他方法调用，调用consoleAdd(),清空运行栈。
+
+#### 堆栈溢出
+当你达到调用栈最大的大小的时候就会发生这种情况，而且这相当容易发生，特别是在你写递归的时候却没有全方位的测试它。我们来看看下面的代码：
+```
+funciton foo(){
+    foo()
+}
+foo()
+```
+在执行的每一步中，相同的函数都会被一次又一次地添加到调用堆栈中,并且在没有任何终止条件的情况下开始调用自己。
+在某些时候，调用堆栈中的函数调用数量超过了调用堆栈的实际大小，浏览器决定采取行动，抛出一个错误。
+
+**VM222:1 Uncaught RangeError: Maximum call stack size exceeded**
+
+## 2019-05-23
+
+### 为什么是单线程
+假设在浏览器中运行一个复杂的图像转换算法。
+
+当调用堆栈有函数要执行时，浏览器不能做任何其他事情——它被阻塞了。这意味着浏览器不能渲染，不能运行任何其他代码，只是卡住了。那么你的应用 UI 界面就卡住了，用户体验也就不那么好了。
+
+在某些情况下，这可能不是主要的问题。还有一个更大的问题是一旦你的浏览器开始处理调用堆栈中的太多任务，它可能会在很长一段时间内停止响应。这时，很多浏览器会抛出一个错误，提示是否终止页面。
+
+```
+var res = ajax("xxxxx");
+console.log(res)
+```
+Ajax(..) 函数还没有返回任何值来分配给变量 res;
+可以设置同步Ajax请求，但永远不要那样做。如果设置同步Ajax请求，应用程序的界面将被阻塞——用户将无法单击、输入数据、导航或滚动。这将阻止任何用户交互，这是一种可怕的做法。
+```
+jQuery.ajax({
+    url: "xxxx",
+    success: function(res){
+
+    },
+    async: false;
+})
+```
+一种等待异步函数返回的结果简单的方式就是 回调函数
+```
+ajax("xxxx",funciton(res)=>{
+    console.log(res)
+})
+```
+还能通过延迟执行达到目的
+```
+function first() {
+    console.log('first');
+}
+function second() {
+    console.log('second');
+}
+function third() {
+    console.log('third');
+}
+first();
+setTimeout(second, 1000); 
+third();
+```
+#### 事件循环
+
+
+
+
+## 2019-05-24
+
+## 2019-05-25
+
+
