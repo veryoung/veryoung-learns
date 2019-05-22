@@ -54,8 +54,7 @@
 
 该状态码表明服务器上无法找到请求的资源。除此之外，也可以在服务器端拒绝请求且不想说明理由时使用
 
-+ **405 Method Not Allowed**
++ **404 Method Not Allowed**
 
-该状态码标明，客户端请求的方法虽然能被服务器识别，但是服务器禁止使用该方法客户端可以通过 OPTIONS 方法来查看服务器允许的访问方法, 如下
-Access-Control-Allow-Methods →GET,HEAD,PUT,PATCH,POST,DELETE
----
+该状态码表明，客户端请求的方法虽然能够被服务器识别，但是服务器禁止使用该方法，客户端可以通过 OPTIONS 方法来查看服务器允许的方法，例如 Access-Control-Allow-Methos
+
