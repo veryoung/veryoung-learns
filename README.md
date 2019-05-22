@@ -46,6 +46,26 @@ end:0
 end:1
 end:2
 ```
+下面解析以下代码运行时的运行栈
+```
+funciton add ( a, b){
+    return a + b;
+}
+function consoleAdd( x, y) {
+    var sum = add (x + y);
+    console.log(sum)
+}
+consleAdd(1,2);
+```
+
+1.进入全局作用域，调用全局方法
+2.调用consoleAdd(1,2),将consoleAdd()加入运行栈,进入consoleAdd(1,2)环境。
+3.进入consoleAdd()作用域,调用 add(x+y),运行栈将 add(x+y) 放在consoleAdd(1,2)之上,进入add(x+y)环境.
+4.无方法调用，执行return，将add(x+y)弹出,返回consoleAdd(1,2)环境。
+5.进入consoleAdd(1,2)环境，调用console.log(),运行栈将console.log()放在consoleAdd(1,2)之上.
+6.执行console.log(),将console.log()弹出，
+7.返回全局作用域，无其他方法调用，调用consoleAdd(),清空运行栈。
+
 
 ## 2019-05-22
 
