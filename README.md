@@ -57,8 +57,6 @@
 + **405 Method Not Allowed**
 
 该状态码标明，客户端请求的方法虽然能被服务器识别，但是服务器禁止使用该方法
-
 客户端可以通过 OPTIONS 方法来查看服务器允许的访问方法, 如下
-
 Access-Control-Allow-Methods →GET,HEAD,PUT,PATCH,POST,DELETE
 ---
