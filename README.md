@@ -301,24 +301,26 @@ function checkCookie(){
 
 1. localStorage的属性方法
 下表是localStorge的一些属性和方法
+---
 
-**属性方法 说明**
+属性方法 说明
 
-localStorage.length 获得storage中的个数
++ localStorage.length 获得storage中的个数
 
-localStorage.key(n) 获得storage中第n个元素对的键值（第一个元素是0）
++ localStorage.key(n) 获得storage中第n个元素对的键值（第一个元素是0）
 
-localStorage.getItem(key) 获取键值key对应的值
++ localStorage.getItem(key) 获取键值key对应的值
 
-localStorage.key 获取键值key对应的值
++ localStorage.key 获取键值key对应的值
 
-localStorage.setItem(key, value) 添加数据，键值为key，值为value
++ localStorage.setItem(key, value) 添加数据，键值为key，值为value
 
-localStorage.removeItem(key) 移除键值为key的数据
++ localStorage.removeItem(key) 移除键值为key的数据
 
 localStorage.clear() 清除所有数据
 
 2. localStorage的缺点
+
 
 + localStorage大小限制在500万字符左右，各个浏览器不一致
 + localStorage在隐私模式下不可读取
