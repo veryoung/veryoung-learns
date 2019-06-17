@@ -432,13 +432,19 @@ function new(func) {
 
 ## 2019-06-05
 
+## 2019-06-16
+### 简单的本地mock项目
+
+[项目地址](https://github.com/varyoung/veryoung-learns/tree/master/node%E7%9A%84%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/)
+
+
 ## 2019-06-17 
 
 ### node的深入理解
 
 [原博主](https://github.com/dashnowords/blogs)
 
-[项目地址](https://github.com/varyoung/veryoung-learns/tree/master/node%E7%9A%84%E5%AE%9E%E8%B7%B5)
+[项目地址](https://github.com/varyoung/veryoung-learns/tree/master/node%E7%9A%84%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/)
 
 
 
