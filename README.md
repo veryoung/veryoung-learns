@@ -2,7 +2,7 @@
 
 ## 不定期更新的一些前端面经
 
-[地址](https://github.com/varyoung/veryoung-learns/tree/master/node%E7%9A%84%E5%AE%9E%E8%B7%B5)
+[地址](https://github.com/varyoung/veryoung-learns/tree/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E7%BB%8F)
 
 ## 2019-05-20
 
