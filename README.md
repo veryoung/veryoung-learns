@@ -367,7 +367,7 @@ Web Storage(localStorage和sessionStorage)的概念和cookie相似，区别是�
 
 ## 2019-05-24 - 2019-06-02
 
-# node的实践
+### node的实践
 
 [项目地址](https://github.com/varyoung/veryoung-learns/tree/master/node%E7%9A%84%E5%AE%9E%E8%B7%B5)
 
@@ -409,7 +409,7 @@ function spawn(genF) {
 }
 ```
 
-### 2019-06-04
+## 2019-06-04
 
 new操作符都做了什么
 
@@ -430,5 +430,16 @@ function new(func) {
 }
 ```
 
-### 2019-06-05
+## 2019-06-05
+
+## 2019-06-17 
+
+### node的深入理解
+
+[原博主](https://github.com/dashnowords/blogs)
+
+[项目地址](https://github.com/varyoung/veryoung-learns/tree/master/node%E7%9A%84%E5%AE%9E%E8%B7%B5)
+
+
+
 
