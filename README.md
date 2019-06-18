@@ -435,7 +435,7 @@ function new(func) {
 ## 2019-06-16
 ### 简单的本地mock项目
 
-[项目地址](https://github.com/varyoung/veryoung-learns/tree/master/node%E7%9A%84%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/)
+[项目地址](https://github.com/varyoung/veryoung-learns/tree/master/mockjs%E5%AE%9E%E8%B7%B5)
 
 
 ## 2019-06-17 
