@@ -1,0 +1,23 @@
+<html>
+<body>
+  <button onclick="measureClick()">Measure</button>
+
+  <img src="https://pic1.zhimg.com/80/v2-cbb69849ed1d41443f31c0e855356fc4_1440w.jpg" />
+
+  <script>
+    const performanceObserver = new PerformanceObserver(list => {
+      list.getEntries().forEach(entry => {
+        console.log('🚀 ~ file: performanceObserver.html ~ line 10 ~ list.getEntries ~ entry', entry)
+      })
+    });
+    // type https://developer.mozilla.org/zh-CN/docs/Web/API/PerformanceEntry/entryType
+    performanceObserver.observe({entryTypes: ['resource', 'mark', 'measure']});
+
+    performance.mark('registered-observer');
+
+    function measureClick() {
+      performance.measure('button clicked');
+    }
+  </script>
+</body>
+</html>

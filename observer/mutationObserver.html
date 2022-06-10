@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"><button>click</button></div>
+
+    <script>
+        const box = document.getElementById('box');
+
+        const mutationObserver = new MutationObserver((mutationsList) => {
+            mutationsList.forEach(item => {
+                console.log(item.type)
+                console.log(item.target)
+                console.log(item.addedNodes)
+                console.log(item.removedNodes)
+            })
+        });
+
+        mutationObserver.observe(box, {
+            attributes: true,
+            childList: true
+        });
+
+        setTimeout(() => {
+            box.style.background = 'red';
+        }, 2000);
+
+        setTimeout(() => {
+            const dom = document.createElement('button');
+            dom.textContent = '东东东';
+            box.appendChild(dom);
+        }, 3000);
+
+        setTimeout(() => {
+            document.querySelectorAll('button')[0].remove();
+        }, 5000);
+    </script>
+</body>
+
+</html>

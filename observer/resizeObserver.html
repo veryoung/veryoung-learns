@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #box {
+            width: 1000px;
+            height: 100px;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+    <div id="box2"></div>
+
+    <script>
+        const box = document.querySelector('#box');
+        const box2 = document.querySelector('#box');
+        // width：指元素本身的宽度，不包含padding，border值
+        // height：指元素本身的高度，不包含padding，border值
+        // top：指padidng-top的值
+        // left：指padding-left的值
+        // right：指left + width的值
+        // bottom: 值top + height的值
+        const resizeObserver = new ResizeObserver(entries => {
+            entries.forEach(entry => {
+                console.log('大小位置', entry.contentRect)
+                console.log('监听的DOM', entry.target)
+            })
+        });
+        resizeObserver.observe(box);
+
+        setTimeout(() => {
+            box.style.width = '2000px';
+        }, 3000);
+    </script>
+</body>
+
+</html>
