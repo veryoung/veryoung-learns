@@ -1,0 +1,394 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分享你的宇宙</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="control">
+        <ul class="colors"></ul>
+        <div class="options">
+            <div class="preset">
+                画笔:
+                <button id="pen-default">默认</button>
+                <button id="pen-thread">脉络</button>
+                <button id="pen-flat">云团</button>
+                <button id="pen-sun">星点</button>
+            </div>
+            <div class="option-item">
+                <label for="weight">噪声强度:</label>
+                <input type="range" id="weight" name="weight" min="0" max="5" step="0.5">
+            </div>
+            <div class="option-item">
+                <label for="spread">发散强度:</label>
+                <input type="range" id="spread" name="spread" min="0" max="2.9" step="0.05">
+            </div>
+            <div class="option-item">
+                <label for="splash">雾化程度:</label>
+                <input type="range" id="splash" name="splash" min="0" max="1.5" step="0.1">
+            </div>
+            <div class="option-item composite-opt">
+                <label id="composite-title" for="x">混合模式:</label>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" class="compositeItem" name="composite" value="lighter" id="lighter" checked>
+                        <label for="lighter">亮度叠加</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" class="compositeItem" name="composite" value="source-over" id="source-over">
+                        <label for="source-over">覆盖</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" class="compositeItem" name="composite" value="darken" id="darken">
+                        <label for="darken">darken(高耗能)</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" class="compositeItem" name="composite" value="soft-light" id="soft-light">
+                        <label for="soft-light">soft-light(高耗能)</label>
+                    </div>
+                    <!-- <div class="radio-item">
+                        <input type="radio" class="compositeItem" name="composite" value="multiply" id="multiply">
+                        <label for="multiply">multiply</label>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <details>
+        <summary id="share">分享你的宇宙</summary>
+        <div>
+            <div id="placeholder"></div>
+            <a id="download" style="padding-top: 12px; color: white; display: block;" download="">下载图片</a>
+        </div>
+    </details>
+    <canvas id="cv"></canvas>
+
+    <script>
+        const canvas = $$('#cv');
+        const ctx = canvas.getContext('2d');
+        window.CodeShowContext = ctx;
+
+        canvas.height = window.innerHeight; // * 2;
+        canvas.width = window.innerWidth; // * 2;
+
+        const DOT_MAX_AGE = 100;
+
+
+        // 噪声发散强度，数值越小，粒子在例子初始范围内的分布越均匀
+        const WEIGHT = 2;
+        // 粒子初始随机偏移范围（画笔粗度），越小粒子初始偏移越小，0-1
+        const SPREAD = 0.8;
+        // 无规律散点的数量
+        const SPLASH = 0.1;
+
+        let weightVal = WEIGHT;
+        let spreadVal = SPREAD
+        let splashVal = SPLASH;
+
+        let brushColor = '#0c0202';
+        let composite = 'lighter';
+
+        const touch = {
+            x: 0,
+            y: 0,
+            active: false
+        };
+
+        function onTouch(e) {
+            touch.active = true;
+            touch.x = e.offsetX;
+            touch.y = e.offsetY;
+        }
+        function onTouchMove(e) {
+            touch.x = e.offsetX;
+            touch.y = e.offsetY;
+        }
+        function onTouchRelease(e) {
+            touch.active = false;
+        }
+        canvas.addEventListener('mousedown', onTouch)
+        canvas.addEventListener('mousemove', onTouchMove)
+        canvas.addEventListener('mouseup', onTouchRelease)
+        canvas.addEventListener('mouseleave', onTouchRelease)
+
+        let dots = [];
+        ctx.fillStyle = '#111';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // 保持每帧执行
+        const tickingTask = [];
+        const tickingTimer = null;
+        onTick(() => {
+            if (touch.active) {
+                for (let i = 0; i < 20; i++) {
+                    dots.push({
+                        offsetX: splash(10),
+                        offsetY: splash(10),
+                        x: touch.x,
+                        y: touch.y,
+                        age: 0
+                    })
+                }
+            }
+
+            ctx.fillStyle = brushColor;
+            ctx.globalAlpha = 1.0;
+            ctx.globalCompositeOperation = composite;
+            
+            const alive = [];
+            // 噪声发散强度，数值越小，粒子在例子初始范围内的分布越均匀
+            // const WEIGHT = 2;
+            // 粒子初始随机偏移范围（画笔粗度），越小粒子初始偏移越小，0-1
+            // const SPREAD = 0.9;
+            // 无规律散点的数量
+            // const SPLASH = 0.1;
+
+            // console.log(spreadVal);
+
+            for (let i = 0; i < dots.length; i++) {
+                const dot = dots[i];
+                dot.offsetX = dot.offsetX * spreadVal + getNoise(dot.x, dot.y, 0) * weightVal + splash(splashVal);
+                dot.offsetY = dot.offsetY * spreadVal + getNoise(dot.x, dot.y, 1) * weightVal + splash(splashVal);
+
+                dot.x += dot.offsetX
+                dot.y += dot.offsetY
+
+                dot.age ++;
+
+                ctx.beginPath();
+                ctx.arc(dot.x, dot.y, 0.5, 0, Math.PI*2, true);
+                ctx.closePath();
+                ctx.fill();
+                // ctx.stroke();
+
+                if(dot.age < DOT_MAX_AGE){
+                    alive.push(dot);
+                }
+            }
+
+            dots = alive;
+        })
+        startTick();
+
+        function splash(range, base = 0){
+            let random = (Math.random() - 0.5) * 2 * range + base;
+            return random;
+        }
+
+        // 按钮展示颜色列表，画笔颜色在此基础上整体小数值
+        const displayColorList = [
+            [23, 40, 112],
+            [58, 114, 204],
+            [31, 136, 155],
+            [120, 50, 144],
+            [65, 191, 65],
+            // [160, 10, 10],
+            [200, 25, 23],
+            [250, 89, 105],
+            [232, 55, 11],
+            [255, 124, 21],
+            [80, 80, 80],
+            [10, 10, 10],
+        ]
+
+        const brushColorList = displayColorList.map(color => color.map(param => Math.ceil(param * 0.3)) );
+        const colorListDom = $$('.colors');
+
+        displayColorList.forEach((color, index) => {
+            const colorBtn = document.createElement('li');
+            colorBtn.classList.add('color');
+            colorBtn.style.backgroundColor = `rgb(${color.join(',')})`;
+            colorBtn.setAttribute('index', index);
+            
+            colorListDom.appendChild(colorBtn);
+        })
+
+        const colorItems = $$('li.color');
+        colorItems.forEach((el) => {
+            el.addEventListener('click', (e) => {
+            const target = e.target;
+            colorItems.forEach(el => el.classList.remove('active'));
+            target.classList.add('active');
+
+            let brushColorArr = brushColorList[Number(target.getAttribute('index'))];
+            brushColor = `rgb(${brushColorArr.join(',')})`
+            console.log('brushColor', brushColor, Number(target.getAttribute('index')));
+            })
+        })
+
+        /* -------------------------------- 参数设置 --------------------------------- */
+        // 画笔参数
+        const weightInput = $$('#weight');
+        const spreadInput = $$('#spread');
+        const splashInput = $$('#splash');
+
+        weightInput.value = WEIGHT;
+        spreadInput.value = SPREAD;
+        splashInput.value = SPLASH;
+
+        weightInput.addEventListener('change', onWeightChange);
+        spreadInput.addEventListener('change', onSpreadChange);
+        splashInput.addEventListener('change', onSplashChange);
+        
+        function onWeightChange(e) {
+            let val = Number(e.target.value) || 0;
+            weightVal = val;
+            console.log(val);
+        }
+        function onSpreadChange(e) {
+            let val = Number(e.target.value) || 0;
+            spreadVal = val;
+            console.log(val);
+        }
+        function onSplashChange(e) {
+            let val = Number(e.target.value) || 0;
+            splashVal = val;
+            console.log(val);
+        }
+
+        // 预设
+        $$('#pen-default').addEventListener('click', () => {
+            setOption(WEIGHT, SPREAD, SPLASH);
+            $$('#lighter').click();
+        });
+        $$('#pen-thread').addEventListener('click', setOptionFactory(3.5, 0.35, 0.1));
+        $$('#pen-flat').addEventListener('click', setOptionFactory(2.5, 0.85, 1.3));
+        $$('#pen-sun').addEventListener('click', setOptionFactory(0, 1, 0));
+
+        function setOptionFactory(weight, spread, splash) {
+            return () => setOption(weight, spread, splash);
+        }
+
+        function setOption(weight, spread, splash) {
+            console.log('setOption', weight, spread, splash)
+            weightInput.value = weight;
+            spreadInput.value = spread;
+            splashInput.value = splash;
+            weightVal = weight;
+            spreadVal = spread;
+            splashVal = splash;
+        }
+
+        // 颜色混合参数
+        const compositeRadioList = $$('.compositeItem');
+        compositeRadioList.forEach((compositeRadio) => {
+            compositeRadio.addEventListener('change', radioChangeHander)
+        })
+
+        function radioChangeHander(e) {
+            let radio = e.target;
+            if (radio.checked) {
+                composite = radio.value;
+            }
+        }
+        
+
+        /* ----------------------------------- 噪声生成 ---------------------------------- */
+        const noiseCanvas = makeMultipleNoise(canvas.width, canvas.height, 8);
+        const noise = noiseCanvas.getContext('2d').getImageData(0, 0, canvas.width, canvas.height).data;
+        console.log(noise);
+        function getNoise(x, y, offset) {
+            return noise[(parseInt(x) + parseInt(y) * canvas.width) * 4 + offset] / 127 - 1;
+        }
+
+        function makeMultipleNoise(width, height, layerNum){
+            let canvas = document.createElement('canvas');
+            let ctx = canvas.getContext('2d');
+
+            canvas.width = width;
+            canvas.height = height;
+
+            ctx.globalAlpha = 1 / layerNum;
+            ctx.globalCompositeOperation = 'lighter';
+
+            for(var i = 0; i < layerNum; i++){
+                // 每个canvas宽高逐级减半
+                const layerW = width / Math.pow(2, i);
+                const layerH = height / Math.pow(2, i);
+                var layer = makeNoise(layerW, layerH);
+                ctx.drawImage(layer, 0, 0, width, height);
+            }
+            // document.body.appendChild(canvas);
+            return canvas;
+        }
+
+        function makeNoise(width, height){
+            var canvas = document.createElement('canvas'),
+                ctx = canvas.getContext('2d');
+
+            canvas.width = width;
+            canvas.height = height;
+
+            var imgData = ctx.getImageData(0, 0, width, height),
+                data = imgData.data,
+                pixels = data.length;
+
+            for(var i = 0; i < pixels; i+=4){
+                data[i] = Math.random()*255;
+                data[i+1] = Math.random()*255;
+                data[i+2] = Math.random()*255;
+                data[i+3] = 255;
+            }
+            ctx.putImageData(imgData, 0, 0);
+            // document.body.appendChild(canvas);
+
+            return canvas;
+        }
+
+        /* ----------------------------------- DOM ---------------------------------- */
+        function $$(selector) {
+            const nodes = document.querySelectorAll(selector)
+            return ( nodes.length > 1) ? nodes : nodes[0];
+        }
+
+
+        /* ---------------------------------- Tick ---------------------------------- */
+        function onTick(fn) {
+            tickingTask.push(fn);
+        }
+
+        function startTick() {
+            if (!tickingTimer) {
+                if (tickingTask.length) {
+                    requestAnimationFrame(() => {
+                        tickingTask.forEach(task => task());
+                        startTick();
+                    })
+                }
+            }
+        }
+
+        /* ---------------------------------- Init ---------------------------------- */
+        colorItems[0].click();
+        
+    </script>
+
+    <script>
+        const share = document.getElementById('share');
+        const download = document.getElementById('download');
+
+        let cache;
+        share.onclick = () => generate(CodeShowContext.canvas);
+
+        function generate(target) {
+            const holder = document.createElement('canvas');
+            // const offscreen = holder.transferControlToOffscreen(650, 650);
+            const ratio = target.height / target.width;
+            holder.width = 750;
+            holder.height = 750 * ratio;
+            const homework = holder.getContext('2d');
+            console.log(holder, homework)
+
+            homework.drawImage(target, 0, 0, holder.width, holder.height);
+
+            holder.toBlob((blob) => {
+                cache = URL.createObjectURL(blob);
+                download.setAttribute('href', cache);
+            });
+
+            document.querySelector('#placeholder').innerHTML = '';
+            document.querySelector('#placeholder').appendChild(holder);
+        }
+    </script>
+</body>
+</html>

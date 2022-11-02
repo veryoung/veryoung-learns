@@ -1,0 +1,12 @@
+/* @keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+.move {
+    position: absolute;
+    animation: move 5s linear infinite;
+} */
