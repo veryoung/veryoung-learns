@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle413/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  onLayout={[Function]}
+  style={Object {}}
+>
+  <img
+    alt=""
+    nativeName="Image"
+    src="https://today.imtt.qq.com/novelsingletab/413/hightbg.jpg"
+    style={
+      Object {
+        "0": Object {
+          "alignSelf": "stretch",
+          "backgroundColors": Array [
+            "#ebebeb",
+            "#202327ff",
+            "#ebebeb",
+            "#202327ff",
+          ],
+          "borderRadius": 8,
+          "bottom": 0,
+          "flex": 1,
+          "flexDirection": "column",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        "1": Object {
+          "width": 336,
+        },
+      }
+    }
+  />
+</div>
+`;

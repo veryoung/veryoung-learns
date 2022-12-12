@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle437/> render testing render oneRowThreeColumns 1`] = `
+<div
+  contentContainerStyle={
+    Object {
+      "marginTop": 16,
+      "paddingHorizontal": 16,
+    }
+  }
+  horizontal={true}
+  nativeName="ScrollView"
+  onLayout={[Function]}
+  scrollEventThrottle={10}
+  showsHorizontalScrollIndicator={false}
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "overflow": "scroll",
+    }
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "collapse": false,
+          "flexDirection": "row",
+        },
+        Object {
+          "marginTop": 16,
+          "paddingHorizontal": 16,
+        },
+      ]
+    }
+  >
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(120, 130, 205, 0.1)",
+              "rgba(67, 73, 105, 0.1)",
+              "rgba(120, 130, 205, 0.1)",
+              "rgba(67, 73, 105, 0.1)",
+            ],
+            "marginLeft": 0,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="全部分类"
+      >
+        全部分类
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(239, 191, 138, 0.1)",
+              "rgba(176, 144, 108, 0.1)",
+              "#FDF8F3",
+              "#343231",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="仙侠"
+      >
+        仙侠
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(255, 121, 110, 0.1)",
+              "rgba(121, 69, 67, 0.1)",
+              "rgba(255, 121, 110, 0.1)",
+              "rgba(121, 69, 67, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="奇幻"
+      >
+        奇幻
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(76, 178, 255, 0.1)",
+              "rgba(49, 92, 125, 0.1)",
+              "rgba(76, 178, 255, 0.1)",
+              "rgba(49, 92, 125, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="悬疑"
+      >
+        悬疑
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(139, 206, 206, 0.1)",
+              "rgba(75, 103, 105, 0.1)",
+              "rgba(139, 206, 206, 0.1)",
+              "rgba(75, 103, 105, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="青春"
+      >
+        青春
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(120, 130, 205, 0.1)",
+              "rgba(67, 73, 105, 0.1)",
+              "rgba(120, 130, 205, 0.1)",
+              "rgba(67, 73, 105, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="游戏"
+      >
+        游戏
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(239, 191, 138, 0.1)",
+              "rgba(176, 144, 108, 0.1)",
+              "#FDF8F3",
+              "#343231",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="现言"
+      >
+        现言
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(255, 121, 110, 0.1)",
+              "rgba(121, 69, 67, 0.1)",
+              "rgba(255, 121, 110, 0.1)",
+              "rgba(121, 69, 67, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="重生"
+      >
+        重生
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(76, 178, 255, 0.1)",
+              "rgba(49, 92, 125, 0.1)",
+              "rgba(76, 178, 255, 0.1)",
+              "rgba(49, 92, 125, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="风水"
+      >
+        风水
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(139, 206, 206, 0.1)",
+              "rgba(75, 103, 105, 0.1)",
+              "rgba(139, 206, 206, 0.1)",
+              "rgba(75, 103, 105, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="女强"
+      >
+        女强
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(120, 130, 205, 0.1)",
+              "rgba(67, 73, 105, 0.1)",
+              "rgba(120, 130, 205, 0.1)",
+              "rgba(67, 73, 105, 0.1)",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="都市修仙"
+      >
+        都市修仙
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColors": Array [
+              "#ffffff",
+              "#A6A9B0",
+              "#A6A9B0",
+              "#A6A9B0",
+            ],
+            "borderRadius": 14,
+            "flexDirection": "column",
+            "height": 28,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColors": Array [
+              "rgba(239, 191, 138, 0.1)",
+              "rgba(176, 144, 108, 0.1)",
+              "#FDF8F3",
+              "#343231",
+            ],
+            "marginLeft": 12,
+          },
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+        text="机甲"
+      >
+        机甲
+      </p>
+    </div>
+  </div>
+</div>
+`;

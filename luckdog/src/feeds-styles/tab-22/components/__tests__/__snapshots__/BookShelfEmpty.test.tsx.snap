@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookShelfEmpty/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "marginBottom": 50,
+      "marginTop": 40,
+    }
+  }
+>
+  <img
+    alt=""
+    nativeName="Image"
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAACKCAMAAAB8UI9dAAAAe1BMVEUAAACIiIiPj4+KioqQkJCJiYmOjo6KioqPj4+cnJyOjo6KioqOjo6Hh4eTk5OLi4uMjIyOjo6NjY2NjY2Pj4+Ojo6NjY2FhYWNjY2JiYmFhYWmpqafn5+WlpaPj4+SkpL7+/v////y8vK/v7/j4+P39/esrKza2trOzs7QY/CrAAAAHnRSTlMATDZdJlLeGNgIrWmzReVzxZ7Mf/e7iorqO5j47dnlpeBsAAABxklEQVRo3u3T25KiMBSF4Y0xEUEM4ST2IRERu9//CWcLSI81U3MVcjPrp4oqiouPnRDi9lpV1lq3bpWgsX1ZOcvJzZpJczzsiGsca9yW1m0b13xPebYQHHutoK1yNhBHpiLtbDAuclQE5DaOKhuUs+DAgQMHDhw4cODAgQMHjggcOHAcOHDgOHDgwHHgwIHjwIEDx4EDB44DBw4cBw4cOA4cOHAcOHDgOHDg/hPuHJYTYbn8d+5MK9co+8M5sVs1Wef6yTlXtWrF4riom0g7GrG2rku5YlGUPSonLi6jEGVm5PI0ClEmCkvWqSCaFGVimLPN+Jge5vLjS/HBU4lJtSOn5KxPybd+uP70VUjhJxllJXNF9rrCp767LHW3PPO3eYmj6h8c55HLysJS/VzMdEq8PbiBr4krROonbZLGknR6/P40mcuX6YYH1yaeMqXUlvZxMc/6upjzdF73rlFE0prsj70bHqB3rjZEVDojsyC/ijoTlx6V0WI5dyPXDcPEeTt3OlGCxna6VvGztu+6y/X7/aO/XbruVsWeqpstLe2XRH/5un+eNludv39fb4e9p+jvyftHEk0vz6fP+4HWTb4MLRry2S9Om+Tev4WmYgAAAABJRU5ErkJggg=="
+    style={
+      Object {
+        "height": 69,
+        "width": 55,
+      }
+    }
+  />
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "marginLeft": 12,
+      }
+    }
+  >
+    <p
+      nativeName="Text"
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          Object {
+            "colors": Array [
+              "#aaaaaa",
+              "#34383e",
+              "#24242440",
+              "#ffffff40",
+            ],
+          },
+        ]
+      }
+      text="书架是空的噢"
+    >
+      书架是空的噢
+    </p>
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 40,
+            "justifyContent": "center",
+          },
+          null,
+        ]
+      }
+    />
+  </div>
+</div>
+`;

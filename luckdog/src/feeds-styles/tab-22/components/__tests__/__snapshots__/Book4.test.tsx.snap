@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Book4/> render testing render normal 1`] = `
+<div
+  contentContainerStyle={
+    Object {
+      "marginHorizontal": 16,
+      "overFlow": "hidden",
+      "paddingBottom": 12,
+    }
+  }
+  horizontal={true}
+  nativeName="ScrollView"
+  onScroll={[Function]}
+  onScrollEndDrag={[Function]}
+  scrollEventThrottle={100}
+  sendMomentumEvents={true}
+  showsHorizontalScrollIndicator={false}
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "overflow": "scroll",
+    }
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "collapse": false,
+          "flexDirection": "row",
+        },
+        Object {
+          "marginHorizontal": 16,
+          "overFlow": "hidden",
+          "paddingBottom": 12,
+        },
+      ]
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {},
+          Object {
+            "flexDirection": "row",
+            "position": "relative",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

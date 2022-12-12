@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RankTabList /> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColors": Array [
+            "#F5F7F9",
+            "#202327",
+            "#F5F7F9",
+            "#202327",
+          ],
+          "colors": Array [
+            "#000000",
+            "#686D74",
+            "#000000",
+            "#ffffff",
+          ],
+          "height": 28,
+          "justifyContent": "center",
+          "paddingBottom": 5,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 5,
+        },
+        Object {
+          "borderBottomLeftRadius": 6,
+          "borderTopLeftRadius": 6,
+        },
+        Object {
+          "backgroundColors": Array [
+            "#EFBF8A",
+            "#B0906C",
+            "#EFBF8A",
+            "#B0906C",
+          ],
+        },
+      ]
+    }
+  >
+    <p
+      nativeName="Text"
+      style={
+        Array [
+          Object {
+            "colors": Array [
+              "#000000",
+              "#686D74",
+              "#000000",
+              "#ffffff",
+            ],
+            "fontSize": 14,
+            "opacity": 0.7,
+          },
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+      text="推荐榜"
+    >
+      推荐榜
+    </p>
+  </div>
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColors": Array [
+            "#F5F7F9",
+            "#202327",
+            "#F5F7F9",
+            "#202327",
+          ],
+          "colors": Array [
+            "#000000",
+            "#686D74",
+            "#000000",
+            "#ffffff",
+          ],
+          "height": 28,
+          "justifyContent": "center",
+          "paddingBottom": 5,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 5,
+        },
+        Object {
+          "marginLeft": 1,
+        },
+        null,
+      ]
+    }
+  >
+    <p
+      nativeName="Text"
+      style={
+        Array [
+          Object {
+            "colors": Array [
+              "#000000",
+              "#686D74",
+              "#000000",
+              "#ffffff",
+            ],
+            "fontSize": 14,
+            "opacity": 0.7,
+          },
+          null,
+        ]
+      }
+      text="热度榜"
+    >
+      热度榜
+    </p>
+  </div>
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColors": Array [
+            "#F5F7F9",
+            "#202327",
+            "#F5F7F9",
+            "#202327",
+          ],
+          "colors": Array [
+            "#000000",
+            "#686D74",
+            "#000000",
+            "#ffffff",
+          ],
+          "height": 28,
+          "justifyContent": "center",
+          "paddingBottom": 5,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 5,
+        },
+        Object {
+          "marginLeft": 1,
+        },
+        null,
+      ]
+    }
+  >
+    <p
+      nativeName="Text"
+      style={
+        Array [
+          Object {
+            "colors": Array [
+              "#000000",
+              "#686D74",
+              "#000000",
+              "#ffffff",
+            ],
+            "fontSize": 14,
+            "opacity": 0.7,
+          },
+          null,
+        ]
+      }
+      text="飙升榜"
+    >
+      飙升榜
+    </p>
+  </div>
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColors": Array [
+            "#F5F7F9",
+            "#202327",
+            "#F5F7F9",
+            "#202327",
+          ],
+          "colors": Array [
+            "#000000",
+            "#686D74",
+            "#000000",
+            "#ffffff",
+          ],
+          "height": 28,
+          "justifyContent": "center",
+          "paddingBottom": 5,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 5,
+        },
+        Object {
+          "borderBottomRightRadius": 6,
+          "borderTopRightRadius": 6,
+          "marginLeft": 1,
+        },
+        null,
+      ]
+    }
+  >
+    <p
+      nativeName="Text"
+      style={
+        Array [
+          Object {
+            "colors": Array [
+              "#000000",
+              "#686D74",
+              "#000000",
+              "#ffffff",
+            ],
+            "fontSize": 14,
+            "opacity": 0.7,
+          },
+          null,
+        ]
+      }
+      text="完本榜"
+    >
+      完本榜
+    </p>
+  </div>
+</div>
+`;

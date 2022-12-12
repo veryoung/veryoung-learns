@@ -1,0 +1,211 @@
+export const GuessYouLikeCard = {
+  cardKey: 'KnowledgeInfinite',
+  uiType: 'GUESS_YOU_LIKE',
+  title: '猜你喜欢',
+  debugReason: '',
+  hiddenHead: false,
+  reportInfo:
+  {
+    bigdata_contentid: '1131875715,1136613386,1136149540,1111420428,1114144996,1134635318,1137612399,1135538591,1135798423,1136614041',
+    bigdata_reason: 'RECALL_METHOD_DSSM-1131875715-:RECALL_METHOD_CF-1136613386-deepwalk_v1_1136430115:RECALL_METHOD_CF-1111420428-deepwalk_v1_1115720920RECALL_METHOD_CF-1111420428-itemcf_freeV1_1115720920:RECALL_METHOD_CF-1114144996-itemcf_freeV1_1125158622:RECALL_METHOD_DSSM-1137612399-:RECALL_METHOD_DSSM-1135798423-:RECALL_METHOD_CF-1136614041-deepwalk_v1_1136430115:RECALL_METHOD_CF-1136149540-deepwalk_v1_1136803121:RECALL_METHOD_DSSM-1134635318-:RECALL_METHOD_DSSM-1135538591-:',
+    channelid: '',
+    position: '3',
+    reqid: 'bb422de101742ffa47474f1b073588cb5573162375827063537',
+    sceneid: 'FeedsTab',
+    strageid: '2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178',
+    traceid: '1691000',
+  },
+  isRow: false,
+  behavior: '',
+  jumpLink:
+  {
+    linkName: '设置阅读偏好',
+    linkUrl: 'qb://ext/novel/store?url=%3Fch%3D%3Freqid%3Dbb422de101742ffa47474f1b073588cb5573162375827063537%26tabfrom%3Dbottom%3Fsceneid%3DFeedsTab_%3Fstrageid%3D2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178',
+  },
+  slidable: false,
+  layoutList:
+    [
+      {
+        isRow: false,
+        dataList:
+          [
+            {
+              resourceId: '1131875715',
+              resourceName: '朕只是一个演员',
+              brief: '岳关，被誉为缔造了中华上下五千年的男人。一统八荒的秦始皇，开疆拓土的汉武帝，军略无双的唐太宗，极限翻盘的明成祖，甚至，还有神话时代的商纣王。中华上下五千年，没有岳关演不了的皇帝，他创造了无数经典的帝王荧幕形象，经典到很多人直接尊称他为陛下。对此，岳关一直很谦虚：朕只是个演员。',
+              author: '平层',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F715%2F31875715%2Ft3_31875715.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691000&bookId=1131875715',
+              reason:
+                [
+                  '系统流',
+                  '皇帝流',
+                  '吐槽',
+                ],
+              score: '8.9分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1136613386',
+              resourceName: '巨星奶爸从参加好声音开始',
+              brief: '“爸爸！”刚醒来，就有个精致可爱的小女孩喊自己爸爸，李辰表示一脸懵逼。在苏醒了记忆后，他才知道自己穿越了，这是一个和地球相似的平行世界，除了地球上的歌曲，小说，电影，相声没有，其他一切都和地球上相差无几。而他正在参加《好声音》的复活赛现场，成为了人气最低的选手，随时都可能被落选！想到地球上那些经典歌曲，李辰淡淡一笑：“作为一个穿越者，落选，不存在的！”于是，巨星奶爸之路就此开始！',
+              author: '木瓜大师',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F386%2F36613386%2Ft3_36613386.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691001&bookId=1136613386',
+              reason:
+                [
+                  '1万加书',
+                  '都市',
+                ],
+              score: '8.1分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1136149540',
+              resourceName: '大唐第一熊孩子',
+              brief: '穿越大唐贞观年间，成为李世民第九子李治。开局只有四岁，并且身负混世魔王系统。十万里加急的信鸽算什么？烤！圣旨算什么？画！李二算什么？整！李二：“王德，最近雉奴学业如何？”王德：“陛下，孔颖达已拜晋王为师！”李二：“什么？”王德：“阎立本、王献之紧随其后，也对晋王殿下以师见礼！”…………琴棋书画，刀枪剑戟，文武双全定江山。我李治自认第二，谁敢称第一？',
+              author: '十四桥',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F540%2F36149540%2Ft3_36149540.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691002&bookId=1136149540',
+              reason:
+                [
+                  '1万加书',
+                  '好评如潮',
+                  '历史',
+                ],
+              score: '9.1分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1111420428',
+              resourceName: '都市超品仙医',
+              brief: '身怀逆天神功，拥有神奇医术，纵横在美女如云的花花都市，苏凌强势崛起，吊打一切，成就一段仙医神话。',
+              author: '流水曲觞',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F428%2F11420428%2Ft3_11420428.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691003&bookId=1111420428',
+              reason:
+                [
+                  '都市修仙',
+                  '现代都市',
+                  '后宫',
+                ],
+              score: '9.1分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1114144996',
+              resourceName: '大唐太子爷',
+              brief: '高明穿越成为了大唐的太子，本以为屌丝穿越高富帅，结果发现太子的位置不是那么好做，因为总有刁民想害朕！（推荐《忍者招募大师》《万界最强吻神》）',
+              author: '天山寒鸦',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F996%2F14144996%2Ft3_14144996.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691004&bookId=1114144996',
+              reason:
+                [
+                  '穿越',
+                  '强国',
+                  '唐朝',
+                ],
+              score: '8.7分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1134635318',
+              resourceName: '我六耳从洪荒开始布局西游',
+              brief: '道，无处存在，无处可寻；可道又处处存在，处处可寻！',
+              author: '我的一休',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F318%2F34635318%2Ft3_34635318.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691005&bookId=1134635318',
+              reason:
+                [
+                  '西游',
+                  '穿越',
+                  '神话',
+                ],
+              score: '8.6分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1137612399',
+              resourceName: '重生三国之曹家逆子',
+              brief: '穿越成为曹操的弟弟，这是一件很奇特的事情。曹操老爹：儿啊，多亏了你，我才能免于一死。只是，你能不能别总气你哥啊？曹昂：父亲，二叔把咱家的什么东西卖了！曹昂：父亲，二叔把咱家的田产卖了！曹昂：父亲，二叔把小弟曹冲卖了！曹操抽出一支棍子，怒气冲冲的吼道：我老曹家怎么出了这么个玩意？曹昂：父亲，二叔把军饷凑齐了！曹昂：父亲，二叔把袁绍杀了！曹昂：父亲，二叔把荆州拿下了！曹操仰天长啸：我老曹家，又出了个人物啊……',
+              author: '春天花田',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F399%2F37612399%2Ft3_37612399.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691006&bookId=1137612399',
+              reason:
+                [
+                  '历史',
+                ],
+              score: '7.7分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1135538591',
+              resourceName: '大秦：开局成了胡亥怎么办？',
+              brief: '错乱的时空下，始皇帝嬴政加白起的组合，能否镇压秦末农民大起义？可够击溃大泽乡起义、刘邦项羽等不世豪杰？十世善人阴差阳错之下成为秦二世胡亥，下有为扶苏公子鸣不平的万民黔首，上有朝堂诸多臣公忠奸难辨。于是，胡亥选择老爹嬴政所有的能力加持自身，更有千古人屠白起从旁助阵！朕想做一个圣君，那就从诛杀赵高、收复蒙恬蒙毅的忠心开始吧！大泽乡起义……朕倒是很清楚陈胜吴广的祖籍在什么地方。汉初三杰？咦，貌似兵仙神帅韩信现在还在要饭吃！萧何还是朕治下的一个小吏，唯独有张良不怎么听话，一只密谋造反。至于西楚霸王和汉高祖刘邦，朕似乎也知道他们在什么地方窝着……',
+              author: '零七度',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F591%2F35538591%2Ft3_35538591.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691007&bookId=1135538591',
+              reason:
+                [
+                  '1万加书',
+                  '高分佳作',
+                  '历史',
+                ],
+              score: '8.6分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1135798423',
+              resourceName: '我是三国一谋主',
+              brief: '青史几行名姓，北邙无数荒丘。前人耕种后人收，说甚龙争虎斗。……这个乱世群雄并起，英雄无数。许济望着眼前不远千里前来相迎的曹操，躬身一礼：“济愿为曹公效力。”PS：群号721797905',
+              author: '历史系小白',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F423%2F35798423%2Ft3_35798423.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691008&bookId=1135798423',
+              reason:
+                [
+                  '秦汉',
+                  '乱世',
+                  '1万加书',
+                ],
+              score: '8.5分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+            {
+              resourceId: '1136614041',
+              resourceName: '娱乐：我说真话震惊了全世界',
+              brief: '徐真穿越了，而且即将登台《非诚勿扰》，意外绑定正能量系统。弘扬正能量，就能获得丰厚奖励？于是！从狂怼拜金女开始，到怒斥综艺黑幕。徐真成为了娱乐圈的泥石流！某综艺导演：档期费我双倍给你，不！十倍，求求您别说了！某知名女演员：您说的很对！我确实演技烂，以后还请您多多指教！......靠着说真话，徐真一路开挂，不断解锁新成就。一线歌手？著名导演？青年优秀演员？这些都是他的标签！几年后，他的粉丝遍布全球！',
+              author: '玫原之冬',
+              picUrl: 'https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F41%2F36614041%2Ft3_36614041.jpg',
+              jumpUrl: 'qb://ext/novelreader?mode=normal&module=novelReader&component=novelReader&banner_intro_show=1&ch=&reqid=bb422de101742ffa47474f1b073588cb5573162375827063537&tabfrom=bottom&sceneid=FeedsTab_&strageid=2096783_2186571_1560719_741492_1854454_969632_1584414_2253376_2177073_969627_1902450_2253369_1884114_2146695_2141021_803893_1818585_2073865_969630_2152652_2187232_2192037_2253367_2207590_2176434_1958205_2102853_2177088_2239753_1657218_1390353_1547471_1061910_1957469_2153178&traceid=1691009&bookId=1136614041',
+              reason:
+                [
+                  '1万加书',
+                  '都市',
+                ],
+              score: '7.1分',
+              hot: '',
+              category: '',
+              status: '',
+            },
+          ],
+      },
+    ],
+};

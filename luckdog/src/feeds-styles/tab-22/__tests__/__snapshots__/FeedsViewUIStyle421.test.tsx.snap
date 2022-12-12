@@ -1,0 +1,975 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle421/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {},
+      Object {
+        "transform": Array [
+          Object {
+            "scale": AnimationSet {
+              "animationId": undefined,
+              "animationList": Array [
+                Object {
+                  "animationId": undefined,
+                  "follow": true,
+                },
+                Object {
+                  "animationId": undefined,
+                  "follow": true,
+                },
+              ],
+              "onAnimationEndCallback": [Function],
+              "onHippyAnimationCancel": [Function],
+              "onHippyAnimationEnd": [Function],
+              "onHippyAnimationRepeat": [Function],
+              "onHippyAnimationStart": [Function],
+              "onRNfqbAnimationCancel": [Function],
+              "onRNfqbAnimationEnd": [Function],
+              "onRNfqbAnimationRepeat": [Function],
+              "onRNfqbAnimationStart": [Function],
+            },
+          },
+        ],
+      },
+    ]
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "height": 0,
+        },
+      ]
+    }
+  />
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    style={
+      Object {
+        "collapsable": false,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 20,
+              "maxWidth": 252,
+              "paddingBottom": 14,
+              "paddingTop": 14,
+            },
+            Object {},
+          ]
+        }
+        text="分类标签"
+      >
+        分类标签
+      </p>
+      <div
+        className="right-view"
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "paddingBottom": 14,
+            "paddingTop": 14,
+            "position": "relative",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              Object {},
+            ]
+          }
+          text="查看全部"
+        >
+          查看全部
+        </p>
+        <img
+          alt=""
+          nativeName="Image"
+          noPicMode={
+            Object {
+              "enable": false,
+            }
+          }
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAbCAYAAACjkdXHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAAGwAAAACSVupLAAAA40lEQVQ4EZ1UOQ4CMQyMQDQ8iIqWJ3HDAhXiEJf2KZS0PAX2B7QwRrFkuZo40sheecZJ1nZSSmkDNMACKF5vKL4Z2xJ1G+QWMMiiPmwXeORvysjRdXexe0plSGv4NsHBxCi3cgmOlMqQli7BycQoV8pmr3CmVIY0cwkuJka5U5fgSqkMaeIS3EyMcscuQS0q6TBmPUH6ANqJPfgdRmg5d3xoFWSY6DUEU4Vi6SEaOeH/zsy24b8drnO4w+bujnRvh6cqPM8rd1T6JQm/Yb4cO6b4ypEe1bajW07F8uS8AOmkovUDoSNiNZ1r/OEAAAAASUVORK5CYII="
+          style={
+            Object {
+              "height": 9,
+              "marginLeft": 4,
+              "tintColors": Array [
+                "#000000",
+                "#686D74",
+                "#000000",
+                "#ffffff",
+              ],
+              "width": 5,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 16,
+        "paddingHorizontal": 16,
+      }
+    }
+    horizontal={true}
+    nativeName="ScrollView"
+    onScrollEndDrag={[Function]}
+    scrollEventThrottle={100}
+    sendMomentumEvents={true}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "collapse": false,
+            "flexDirection": "row",
+          },
+          Object {
+            "paddingBottom": 16,
+            "paddingHorizontal": 16,
+          },
+        ]
+      }
+    >
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "collapsable": false,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(120, 130, 205, 0.1)",
+                    "rgba(67, 73, 105, 0.1)",
+                    "rgba(120, 130, 205, 0.1)",
+                    "rgba(67, 73, 105, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="都市"
+            >
+              都市
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(239, 191, 138, 0.1)",
+                    "rgba(176, 144, 108, 0.1)",
+                    "#FDF8F3",
+                    "#343231",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="科技修真"
+            >
+              科技修真
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="嘴炮"
+            >
+              嘴炮
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(76, 178, 255, 0.1)",
+                    "rgba(49, 92, 125, 0.1)",
+                    "rgba(76, 178, 255, 0.1)",
+                    "rgba(49, 92, 125, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="升级流"
+            >
+              升级流
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(139, 206, 206, 0.1)",
+                    "rgba(75, 103, 105, 0.1)",
+                    "rgba(139, 206, 206, 0.1)",
+                    "rgba(75, 103, 105, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="玄幻"
+            >
+              玄幻
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(120, 130, 205, 0.1)",
+                    "rgba(67, 73, 105, 0.1)",
+                    "rgba(120, 130, 205, 0.1)",
+                    "rgba(67, 73, 105, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="冷静"
+            >
+              冷静
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(239, 191, 138, 0.1)",
+                    "rgba(176, 144, 108, 0.1)",
+                    "#FDF8F3",
+                    "#343231",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="无限流"
+            >
+              无限流
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 0,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="特工"
+            >
+              特工
+            </p>
+          </div>
+        </div>
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {
+                "marginBottom": 0,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(239, 191, 138, 0.1)",
+                    "rgba(176, 144, 108, 0.1)",
+                    "#FDF8F3",
+                    "#343231",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="仙侠奇缘"
+            >
+              仙侠奇缘
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="穿越"
+            >
+              穿越
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(76, 178, 255, 0.1)",
+                    "rgba(49, 92, 125, 0.1)",
+                    "rgba(76, 178, 255, 0.1)",
+                    "rgba(49, 92, 125, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="系统流"
+            >
+              系统流
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(139, 206, 206, 0.1)",
+                    "rgba(75, 103, 105, 0.1)",
+                    "rgba(139, 206, 206, 0.1)",
+                    "rgba(75, 103, 105, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="热血"
+            >
+              热血
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(120, 130, 205, 0.1)",
+                    "rgba(67, 73, 105, 0.1)",
+                    "rgba(120, 130, 205, 0.1)",
+                    "rgba(67, 73, 105, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="奇幻"
+            >
+              奇幻
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(239, 191, 138, 0.1)",
+                    "rgba(176, 144, 108, 0.1)",
+                    "#FDF8F3",
+                    "#343231",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="重生"
+            >
+              重生
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                    "rgba(255, 121, 110, 0.1)",
+                    "rgba(121, 69, 67, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="轻松"
+            >
+              轻松
+            </p>
+          </div>
+          <div
+            nativeName="View"
+            onClick={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 18,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "marginRight": 0,
+                },
+                Object {
+                  "backgroundColors": Array [
+                    "rgba(76, 178, 255, 0.1)",
+                    "rgba(49, 92, 125, 0.1)",
+                    "rgba(76, 178, 255, 0.1)",
+                    "rgba(49, 92, 125, 0.1)",
+                  ],
+                },
+              ]
+            }
+          >
+            <p
+              nativeName="Text"
+              style={
+                Object {
+                  "colors": Array [
+                    "#000000",
+                    "#686D74",
+                    "#000000",
+                    "#ffffff",
+                  ],
+                }
+              }
+              text="赚钱"
+            >
+              赚钱
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

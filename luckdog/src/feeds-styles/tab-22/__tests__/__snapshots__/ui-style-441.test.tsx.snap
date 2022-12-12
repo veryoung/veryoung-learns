@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle441/> render testing render style441 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "backgroundColors": Array [
+        "white",
+        "#23282d",
+        "white",
+        "rgba(0, 0, 0, 0.8)",
+      ],
+      "borderRadius": 12,
+      "marginBottom": 0,
+      "marginHorizontal": 12,
+      "marginTop": 16,
+    }
+  }
+>
+  <div
+    nativeName="View"
+    onLayout={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <p
+      nativeName="Text"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "lineHeight": 20,
+            "maxWidth": 252,
+            "paddingBottom": 14,
+            "paddingTop": 14,
+          },
+          Object {},
+        ]
+      }
+      text="书荒补给站"
+    >
+      书荒补给站
+    </p>
+    <div
+      className="right-view"
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 14,
+          "paddingTop": 14,
+          "position": "relative",
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "#000000",
+                "#686D74",
+                "#000000",
+                "#ffffff",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+            },
+            Object {},
+          ]
+        }
+        text="查看全部"
+      >
+        查看全部
+      </p>
+      <img
+        alt=""
+        nativeName="Image"
+        noPicMode={
+          Object {
+            "enable": false,
+          }
+        }
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAbCAYAAACjkdXHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAAGwAAAACSVupLAAAA40lEQVQ4EZ1UOQ4CMQyMQDQ8iIqWJ3HDAhXiEJf2KZS0PAX2B7QwRrFkuZo40sheecZJ1nZSSmkDNMACKF5vKL4Z2xJ1G+QWMMiiPmwXeORvysjRdXexe0plSGv4NsHBxCi3cgmOlMqQli7BycQoV8pmr3CmVIY0cwkuJka5U5fgSqkMaeIS3EyMcscuQS0q6TBmPUH6ANqJPfgdRmg5d3xoFWSY6DUEU4Vi6SEaOeH/zsy24b8drnO4w+bujnRvh6cqPM8rd1T6JQm/Yb4cO6b4ypEe1bajW07F8uS8AOmkovUDoSNiNZ1r/OEAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": 9,
+            "marginLeft": 4,
+            "tintColors": Array [
+              "#000000",
+              "#686D74",
+              "#000000",
+              "#ffffff",
+            ],
+            "width": 5,
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    contentContainerStyle={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 16,
+        "paddingHorizontal": 14,
+        "paddingTop": 8,
+      }
+    }
+    horizontal={true}
+    nativeName="ScrollView"
+    onScroll={[Function]}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "collapse": false,
+            "flexDirection": "row",
+          },
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingHorizontal": 14,
+            "paddingTop": 8,
+          },
+        ]
+      }
+    >
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "collapsable": false,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          nativeName="View"
+          style={Object {}}
+        >
+          <div
+            nativeName="View"
+            style={
+              Object {
+                "collapsable": false,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <div
+              nativeName="View"
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <div
+                nativeName="View"
+                onClick={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "width": 215,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  nativeName="Image"
+                  noPicMode={
+                    Object {
+                      "enable": false,
+                    }
+                  }
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAIVBMVEVHcEz/cE//b0z/bkz/bkz/bk3/b07/bk3/bkz/bkz/dVWOi8B6AAAAC3RSTlMAL2aU/8FCseD2Ews4zjUAAADbSURBVHja7ZZLDsMgDAVr8zPc/8AVZvckN49IbbpgVh7JBGQw5HU4PIKootKknHNBJal5UkHpiSeKytHWVKgc5tmCytE9e6BSDE/uqBeM6qhnm8eg8qHI11hQN80MFm0QhdxddVx16ZkgRa2UirM+4iFqU+6MoO6cEUPlkLVMVA717Aa6NTiB/u4qUFSO4tkCunWPDFQO6H3QAG3FWdkeoiYJi0zQJTqU95tKMkWLikwQ7Xc1atURUie2ZvAYdfzZc4FVN9Cth72BfuEqoH8p+HZOqDSqgno4PMEb91MO0cxvjQoAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": 20,
+                      "width": 20,
+                    }
+                  }
+                />
+                <p
+                  nativeName="Text"
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "marginLeft": 2,
+                      "width": 195,
+                    }
+                  }
+                  text="快穿也内卷，我穿到的身体多奇葩"
+                >
+                  快穿也内卷，我穿到的身体多奇葩
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "marginLeft": 10,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                onClick={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "width": 215,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  nativeName="Image"
+                  noPicMode={
+                    Object {
+                      "enable": false,
+                    }
+                  }
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAIVBMVEVHcEz/cE//b0z/bkz/bkz/bk3/b07/bk3/bkz/bkz/dVWOi8B6AAAAC3RSTlMAL2aU/8FCseD2Ews4zjUAAADbSURBVHja7ZZLDsMgDAVr8zPc/8AVZvckN49IbbpgVh7JBGQw5HU4PIKootKknHNBJal5UkHpiSeKytHWVKgc5tmCytE9e6BSDE/uqBeM6qhnm8eg8qHI11hQN80MFm0QhdxddVx16ZkgRa2UirM+4iFqU+6MoO6cEUPlkLVMVA717Aa6NTiB/u4qUFSO4tkCunWPDFQO6H3QAG3FWdkeoiYJi0zQJTqU95tKMkWLikwQ7Xc1atURUie2ZvAYdfzZc4FVN9Cth72BfuEqoH8p+HZOqDSqgno4PMEb91MO0cxvjQoAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": 20,
+                      "width": 20,
+                    }
+                  }
+                />
+                <p
+                  nativeName="Text"
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "marginLeft": 2,
+                      "width": 195,
+                    }
+                  }
+                  text="最奇葩的金手指大盘点"
+                >
+                  最奇葩的金手指大盘点
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "marginLeft": 10,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                onClick={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "width": 215,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  nativeName="Image"
+                  noPicMode={
+                    Object {
+                      "enable": false,
+                    }
+                  }
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAIVBMVEVHcEz/cE//b0z/bkz/bkz/bk3/b07/bk3/bkz/bkz/dVWOi8B6AAAAC3RSTlMAL2aU/8FCseD2Ews4zjUAAADbSURBVHja7ZZLDsMgDAVr8zPc/8AVZvckN49IbbpgVh7JBGQw5HU4PIKootKknHNBJal5UkHpiSeKytHWVKgc5tmCytE9e6BSDE/uqBeM6qhnm8eg8qHI11hQN80MFm0QhdxddVx16ZkgRa2UirM+4iFqU+6MoO6cEUPlkLVMVA717Aa6NTiB/u4qUFSO4tkCunWPDFQO6H3QAG3FWdkeoiYJi0zQJTqU95tKMkWLikwQ7Xc1atURUie2ZvAYdfzZc4FVN9Cth72BfuEqoH8p+HZOqDSqgno4PMEb91MO0cxvjQoAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": 20,
+                      "width": 20,
+                    }
+                  }
+                />
+                <p
+                  nativeName="Text"
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "marginLeft": 2,
+                      "width": 195,
+                    }
+                  }
+                  text="婚后甜宠文！嗑到昏迷！"
+                >
+                  婚后甜宠文！嗑到昏迷！
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Object {
+                "collapsable": false,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <div
+              nativeName="View"
+              onLayout={[Function]}
+              style={Object {}}
+            >
+              <div
+                nativeName="View"
+                onClick={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "width": 215,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  nativeName="Image"
+                  noPicMode={
+                    Object {
+                      "enable": false,
+                    }
+                  }
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAIVBMVEVHcEz/cE//b0z/bkz/bkz/bk3/b07/bk3/bkz/bkz/dVWOi8B6AAAAC3RSTlMAL2aU/8FCseD2Ews4zjUAAADbSURBVHja7ZZLDsMgDAVr8zPc/8AVZvckN49IbbpgVh7JBGQw5HU4PIKootKknHNBJal5UkHpiSeKytHWVKgc5tmCytE9e6BSDE/uqBeM6qhnm8eg8qHI11hQN80MFm0QhdxddVx16ZkgRa2UirM+4iFqU+6MoO6cEUPlkLVMVA717Aa6NTiB/u4qUFSO4tkCunWPDFQO6H3QAG3FWdkeoiYJi0zQJTqU95tKMkWLikwQ7Xc1atURUie2ZvAYdfzZc4FVN9Cth72BfuEqoH8p+HZOqDSqgno4PMEb91MO0cxvjQoAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": 20,
+                      "width": 20,
+                    }
+                  }
+                />
+                <p
+                  nativeName="Text"
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "marginLeft": 2,
+                      "width": 195,
+                    }
+                  }
+                  text="B站崩了"
+                >
+                  B站崩了
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "marginLeft": 10,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                onClick={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "width": 215,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  nativeName="Image"
+                  noPicMode={
+                    Object {
+                      "enable": false,
+                    }
+                  }
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAIVBMVEVHcEz/cE//b0z/bkz/bkz/bk3/b07/bk3/bkz/bkz/dVWOi8B6AAAAC3RSTlMAL2aU/8FCseD2Ews4zjUAAADbSURBVHja7ZZLDsMgDAVr8zPc/8AVZvckN49IbbpgVh7JBGQw5HU4PIKootKknHNBJal5UkHpiSeKytHWVKgc5tmCytE9e6BSDE/uqBeM6qhnm8eg8qHI11hQN80MFm0QhdxddVx16ZkgRa2UirM+4iFqU+6MoO6cEUPlkLVMVA717Aa6NTiB/u4qUFSO4tkCunWPDFQO6H3QAG3FWdkeoiYJi0zQJTqU95tKMkWLikwQ7Xc1atURUie2ZvAYdfzZc4FVN9Cth72BfuEqoH8p+HZOqDSqgno4PMEb91MO0cxvjQoAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": 20,
+                      "width": 20,
+                    }
+                  }
+                />
+                <p
+                  nativeName="Text"
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "marginLeft": 2,
+                      "width": 195,
+                    }
+                  }
+                  text="蒙古上单"
+                >
+                  蒙古上单
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "marginLeft": 10,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                onClick={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "width": 215,
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  nativeName="Image"
+                  noPicMode={
+                    Object {
+                      "enable": false,
+                    }
+                  }
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAIVBMVEVHcEz/cE//b0z/bkz/bkz/bk3/b07/bk3/bkz/bkz/dVWOi8B6AAAAC3RSTlMAL2aU/8FCseD2Ews4zjUAAADbSURBVHja7ZZLDsMgDAVr8zPc/8AVZvckN49IbbpgVh7JBGQw5HU4PIKootKknHNBJal5UkHpiSeKytHWVKgc5tmCytE9e6BSDE/uqBeM6qhnm8eg8qHI11hQN80MFm0QhdxddVx16ZkgRa2UirM+4iFqU+6MoO6cEUPlkLVMVA717Aa6NTiB/u4qUFSO4tkCunWPDFQO6H3QAG3FWdkeoiYJi0zQJTqU95tKMkWLikwQ7Xc1atURUie2ZvAYdfzZc4FVN9Cth72BfuEqoH8p+HZOqDSqgno4PMEb91MO0cxvjQoAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": 20,
+                      "width": 20,
+                    }
+                  }
+                />
+                <p
+                  nativeName="Text"
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "marginLeft": 2,
+                      "width": 195,
+                    }
+                  }
+                  text="可能发生的往事"
+                >
+                  可能发生的往事
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

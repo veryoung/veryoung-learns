@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle422/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  onPressIn={[Function]}
+  onPressOut={[Function]}
+  style={
+    Object {
+      "paddingHorizontal": 16,
+    }
+  }
+>
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    onLayout={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 8,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={Object {}}
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "rgba(0, 0, 0, 0.5)",
+              "rgba(104, 109, 116, 0.5)",
+              "rgba(0, 0, 0, 0.5)",
+              "rgba(104, 109, 116, 0.5)",
+            ],
+            "fontSize": 12,
+            "lineHeight": 16,
+            "paddingBottom": 18,
+            "paddingTop": 20,
+          }
+        }
+        text="已加入0本书"
+      >
+        已加入0本书
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "rgba(0, 0, 0, 0.5)",
+                "rgba(104, 109, 116, 0.5)",
+                "rgba(0, 0, 0, 0.5)",
+                "rgba(104, 109, 116, 0.5)",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "paddingBottom": 18,
+              "paddingTop": 20,
+            },
+            Object {
+              "paddingRight": 12,
+            },
+          ]
+        }
+        text="阅读记录"
+      >
+        阅读记录
+      </p>
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "rgba(0, 0, 0, 0.3)",
+              "rgba(104, 109, 116, 0.3)",
+              "rgba(0, 0, 0, 0.3)",
+              "#ffffff",
+            ],
+            "fontSize": 12,
+            "paddingBottom": 19,
+            "paddingTop": 19,
+          }
+        }
+        text="|"
+      >
+        |
+      </p>
+      <p
+        className="edit"
+        nativeName="Text"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "rgba(0, 0, 0, 0.5)",
+                "rgba(104, 109, 116, 0.5)",
+                "rgba(0, 0, 0, 0.5)",
+                "rgba(104, 109, 116, 0.5)",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "paddingBottom": 18,
+              "paddingTop": 20,
+            },
+            Object {
+              "opacity": 1,
+              "paddingLeft": 12,
+            },
+          ]
+        }
+        text="编辑"
+      >
+        编辑
+      </p>
+    </div>
+  </div>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "width": 328,
+        },
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  />
+</div>
+`;

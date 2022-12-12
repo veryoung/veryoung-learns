@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle420/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={Object {}}
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "height": 0,
+        },
+      ]
+    }
+  />
+  <div
+    nativeName="View"
+    style={Object {}}
+  >
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 20,
+              "maxWidth": 252,
+              "paddingBottom": 14,
+              "paddingTop": 14,
+            },
+            Object {},
+          ]
+        }
+        text=""
+      >
+        
+      </p>
+    </div>
+    <div
+      contentContainerStyle={
+        Object {
+          "paddingBottom": 16,
+          "paddingHorizontal": 12,
+        }
+      }
+      horizontal={true}
+      nativeName="ScrollView"
+      onScroll={[Function]}
+      onScrollEndDrag={[Function]}
+      scrollEventThrottle={100}
+      sendMomentumEvents={true}
+      showsHorizontalScrollIndicator={false}
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "overflow": "scroll",
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={
+          Array [
+            Object {
+              "collapse": false,
+              "flexDirection": "row",
+            },
+            Object {
+              "paddingBottom": 16,
+              "paddingHorizontal": 12,
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

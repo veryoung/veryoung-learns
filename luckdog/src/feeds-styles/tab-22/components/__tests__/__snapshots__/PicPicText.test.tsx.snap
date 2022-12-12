@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PicPicText/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  onClick={[Function]}
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      },
+      Object {},
+    ]
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "height": 68,
+        "width": 71,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Object {
+          "bottom": 0,
+          "opacity": 0.5,
+          "position": "absolute",
+          "right": 0,
+        }
+      }
+    >
+      <img
+        alt=""
+        nativeName="Image"
+        reportData={
+          Object {
+            "sourceFrom": undefined,
+          }
+        }
+        resizeMode="cover"
+        style={
+          Object {
+            "0": Object {
+              "height": 52.5,
+              "width": 40,
+            },
+            "1": Object {
+              "borderColors": Array [
+                "#e5e5e5",
+                "#31363b",
+                "#00000010",
+                "#ffffff10",
+              ],
+              "borderRadius": 2,
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+          }
+        }
+      />
+    </div>
+    <img
+      alt=""
+      nativeName="Image"
+      reportData={
+        Object {
+          "sourceFrom": undefined,
+        }
+      }
+      resizeMode="cover"
+      style={
+        Object {
+          "0": Object {
+            "height": 68,
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": 51,
+          },
+          "1": Object {
+            "borderColors": Array [
+              "#e5e5e5",
+              "#31363b",
+              "#00000010",
+              "#ffffff10",
+            ],
+            "borderRadius": 2,
+            "borderStyle": "solid",
+            "borderWidth": 0.5,
+          },
+        }
+      }
+    />
+    <div
+      nativeName="View"
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#242424dd",
+          "borderRadius": 2,
+          "bottom": 0,
+          "position": "absolute",
+          "right": 0,
+          "width": 50,
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "colors": Array [
+              "white",
+              "#7f8386",
+              "#ffffff20",
+              "white",
+            ],
+            "fontSize": 12,
+            "lineHeight": 20,
+          }
+        }
+        text=""
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+        "flexWrap": "wrap",
+        "marginLeft": 12,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={Object {}}
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={2}
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 16,
+            "lineHeight": 24,
+            "textAlign": "justify",
+          }
+        }
+        text=""
+      >
+        
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    />
+  </div>
+</div>
+`;

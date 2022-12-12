@@ -1,0 +1,5068 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle401/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Array [
+      Object {
+        "backgroundColors": Array [
+          "white",
+          "#23282d",
+          "white",
+          "rgba(0, 0, 0, 0.8)",
+        ],
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 12,
+        "borderTopRightRadius": 12,
+        "marginBottom": 0,
+        "marginHorizontal": 12,
+        "marginTop": 16,
+        "paddingBottom": 0,
+      },
+      Object {
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+        ],
+      },
+    ]
+  }
+>
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    style={
+      Object {
+        "collapsable": false,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 20,
+              "maxWidth": 252,
+              "paddingBottom": 14,
+              "paddingTop": 14,
+            },
+            Object {},
+          ]
+        }
+        text="猜你喜欢"
+      >
+        猜你喜欢
+      </p>
+      <div
+        className="right-view"
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "paddingBottom": 14,
+            "paddingTop": 14,
+            "position": "relative",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              Object {},
+            ]
+          }
+          text="设置阅读喜好"
+        >
+          设置阅读喜好
+        </p>
+        <img
+          alt=""
+          nativeName="Image"
+          noPicMode={
+            Object {
+              "enable": false,
+            }
+          }
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAbCAYAAACjkdXHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAAGwAAAACSVupLAAAA40lEQVQ4EZ1UOQ4CMQyMQDQ8iIqWJ3HDAhXiEJf2KZS0PAX2B7QwRrFkuZo40sheecZJ1nZSSmkDNMACKF5vKL4Z2xJ1G+QWMMiiPmwXeORvysjRdXexe0plSGv4NsHBxCi3cgmOlMqQli7BycQoV8pmr3CmVIY0cwkuJka5U5fgSqkMaeIS3EyMcscuQS0q6TBmPUH6ANqJPfgdRmg5d3xoFWSY6DUEU4Vi6SEaOeH/zsy24b8drnO4w+bujnRvh6cqPM8rd1T6JQm/Yb4cO6b4ypEe1bajW07F8uS8AOmkovUDoSNiNZ1r/OEAAAAASUVORK5CYII="
+          style={
+            Object {
+              "height": 9,
+              "marginLeft": 4,
+              "tintColors": Array [
+                "#000000",
+                "#686D74",
+                "#000000",
+                "#ffffff",
+              ],
+              "width": 5,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "collapsable": false,
+        "grayId": 0,
+        "minRNVersion": 8150,
+        "style": Object {
+          "*": Object {
+            "SPLITTER": Object {
+              "BOLD": Object {
+                "backgroundColors": Array [
+                  "#eeeeee",
+                  "#333333",
+                  "#eeeeee",
+                  "#333333",
+                ],
+                "height": 0.5,
+                "marginLeft": 0,
+                "marginRight": 0,
+              },
+              "NEW_BOLD": Object {
+                "backgroundColors": Array [
+                  "#eeeeee",
+                  "#333333",
+                  "#eeeeee",
+                  "#333333",
+                ],
+                "height": 0.5,
+                "marginLeft": 0,
+                "marginRight": 0,
+              },
+              "NONE": Object {
+                "height": 0,
+              },
+              "NORMAL": Object {
+                "backgroundColors": Array [
+                  "#eeeeee",
+                  "#333333",
+                  "#eeeeee",
+                  "#333333",
+                ],
+                "height": 0.5,
+                "marginLeft": 12,
+                "marginRight": 12,
+              },
+              "THIN": Object {
+                "backgroundColors": Array [
+                  "#eeeeee",
+                  "#333333",
+                  "#eeeeee",
+                  "#333333",
+                ],
+                "height": 0.5,
+                "marginLeft": 12,
+                "marginRight": 12,
+              },
+              "THIN_MATCH_PARENT": Object {
+                "backgroundColors": Array [
+                  "#eeeeee",
+                  "#333333",
+                  "#eeeeee",
+                  "#333333",
+                ],
+                "height": 0.5,
+                "marginLeft": 12,
+                "marginRight": 12,
+              },
+              "WHITE_BOLD": Object {
+                "backgroundColors": Array [
+                  "#eeeeee",
+                  "#333333",
+                  "#eeeeee",
+                  "#333333",
+                ],
+                "height": 0.5,
+                "marginLeft": 0,
+                "marginRight": 0,
+              },
+            },
+            "bgModeBackgroundColors": Array [
+              "transparent",
+              "#181b1f",
+              "transparent",
+              "transparent",
+            ],
+            "container": Object {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            "containerTopPaddingTop": 8,
+            "img": Object {
+              "borderRadius": 6,
+              "leftImage": Object {
+                "borderBottomLeftRadius": 4,
+                "borderBottomRightRadius": 0,
+                "borderTopLeftRadius": 4,
+                "borderTopRightRadius": 0,
+              },
+              "middleImage": Object {
+                "borderBottomLeftRadius": 0,
+                "borderBottomRightRadius": 0,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+              },
+              "rightImage": Object {
+                "borderBottomLeftRadius": 0,
+                "borderBottomRightRadius": 4,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 4,
+              },
+              "space": 1,
+            },
+            "playIcon": Object {
+              "icon": Object {
+                "height": 44,
+                "width": 44,
+              },
+              "imagePlayContainer": Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 1000,
+              },
+            },
+            "title": Object {
+              "fontWeight": "normal",
+            },
+            "titleColors": Object {
+              "BG_CLICKED": Array [
+                "#666666",
+                "#686d74",
+                "#666666",
+                "#666666",
+              ],
+              "BG_NORMAL": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "#242424",
+              ],
+              "CLICKED": Array [
+                "#666666",
+                "#50555c",
+                "#24242480",
+                "#ffffff80",
+              ],
+              "NORMAL": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+            },
+          },
+          "23": Object {
+            "bookContainer": Object {
+              "paddingBottom": 0,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 0,
+            },
+            "container": Object {
+              "flexDirection": "column",
+            },
+            "image": Object {
+              "alignSelf": "center",
+              "borderRadius": 6,
+              "marginTop": 8,
+              "resizeMode": "cover",
+            },
+          },
+          "407": Object {
+            "container": Object {
+              "alignItems": "center",
+              "backgroundColors": Array [
+                "#FFF3E1",
+                "#2B3035",
+              ],
+              "borderRadius": 4,
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 36,
+              "justifyContent": "center",
+              "marginHorizontal": 12,
+              "marginVertical": 12,
+            },
+            "iconView": Object {
+              "alignSelf": "center",
+              "height": 12,
+              "width": 12,
+            },
+            "tagTitle": Object {
+              "alignSelf": "center",
+              "colors": Array [
+                "#FF8132",
+                "#686D74",
+              ],
+              "fontSize": 14,
+              "fontWeight": "700",
+              "paddingVertical": 10,
+            },
+          },
+          "408": Object {
+            "backgroundImg": Object {
+              "flex": 1,
+              "position": "absolute",
+            },
+            "cardImage": Object {
+              "height": 39.5,
+              "left": 24,
+              "position": "absolute",
+              "top": 0,
+              "width": 56,
+            },
+            "container": Object {
+              "alignItems": "flex-start",
+              "borderWidth": 0,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            "redDot": Object {
+              "backgroundColors": Array [
+                "#FF682D",
+              ],
+              "borderRadius": 10,
+              "height": 5,
+              "marginLeft": 2,
+              "marginRight": 2,
+              "width": 5,
+            },
+            "tagArrow": Object {
+              "height": 10,
+              "marginLeft": 2,
+              "width": 4.5,
+            },
+            "tagContainer": Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 36,
+              "justifyContent": "center",
+              "marginTop": 3.5,
+              "overflow": "hidden",
+            },
+            "tagText": Object {
+              "borderRadius": 5,
+              "colors": Array [
+                "#DF8A00",
+                "#977e52",
+              ],
+              "fontSize": 12,
+              "height": 36,
+              "lineHeight": 36,
+              "marginLeft": 83,
+              "maxWidth": 300,
+            },
+          },
+          "413": Object {
+            "botWrapper": Object {
+              "padding": 12,
+            },
+            "bottomTxt": Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 18,
+            },
+            "flexRow": Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            },
+            "icon": Object {
+              "height": 8,
+              "marginLeft": 2,
+              "width": 4.5,
+            },
+            "readButton": Object {
+              "backgroundColors": Array [
+                "#FF8132",
+                "#7C470C",
+              ],
+              "borderRadius": 12,
+            },
+            "readButtonText": Object {
+              "colors": Array [
+                "white",
+                "#7f8386",
+              ],
+              "fontSize": 11,
+              "lineHeight": 18,
+              "paddingHorizontal": 6,
+              "paddingVertical": 2,
+            },
+            "topWrapper": Object {
+              "marginBottom": 8,
+              "marginTop": 24,
+              "padding": 12,
+            },
+            "txt": Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+              ],
+              "fontSize": 16,
+              "lineHeight": 26,
+              "textAlign": "justify",
+            },
+            "wrapper": Object {
+              "backgroundColors": Array [
+                "#FFFAEC",
+                "#202327",
+              ],
+              "borderRadius": 6,
+              "borderWidth": 0,
+              "marginLeft": 12,
+              "marginRight": 12,
+              "overflow": "hidden",
+            },
+          },
+          "418": Object {
+            "bg": Object {
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+            },
+            "button": Object {
+              "borderColor": "#4C9AFA",
+              "borderRadius": 3,
+              "borderWidth": 0.5,
+              "color": "#4C9AFA",
+              "fontSize": 17,
+              "height": 38,
+              "lineHeight": 38,
+              "textAlign": "center",
+              "width": 140,
+            },
+            "cards": Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "center",
+              "paddingBottom": 0,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 0,
+            },
+            "center": Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            "close": Object {
+              "height": 17,
+              "position": "absolute",
+              "right": 17,
+              "top": 17,
+              "width": 30,
+            },
+            "dots": Object {
+              "height": 2,
+              "marginLeft": 5,
+              "marginRight": 5,
+              "width": 12,
+            },
+            "pageWrapper": Object {
+              "width": 750,
+            },
+            "picContainer": Object {
+              "marginLeft": 5,
+              "marginRight": 5,
+              "marginTop": 8,
+              "position": "relative",
+            },
+            "rowCenter": Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginTop": 5,
+            },
+            "tips": Object {
+              "color": "#AAAAAA",
+              "fontSize": 15,
+              "height": 18,
+              "lineHeight": 18,
+              "marginBottom": 5,
+              "textAlign": "center",
+            },
+            "title": Object {
+              "height": 20,
+              "marginBottom": 8,
+              "width": 180,
+            },
+            "titleContainer": Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+            },
+          },
+          "extTabList": Object {
+            "edit": Object {
+              "alignItems": "center",
+              "backgroundColors": Array [
+                "white",
+                "#00000000",
+                "#ffffffbf",
+                "#0000007f",
+              ],
+              "flexDirection": "row",
+            },
+            "focusImage": Object {
+              "height": 26,
+              "marginBottom": 11.5,
+              "marginTop": 6.5,
+              "opacity": 1,
+              "resizeMode": "contain",
+              "width": 44,
+            },
+            "highlightBubble": Object {
+              "height": 35,
+              "justifyContent": "flex-end",
+              "left": 10,
+              "position": "absolute",
+              "top": 32,
+            },
+            "iconsCustom": Object {
+              "height": 21,
+              "marginLeft": 1,
+              "marginRight": 13,
+              "tintColors": Array [
+                "#666666",
+                "#50555c",
+                "#24242480",
+                "#ffffff80",
+              ],
+              "width": 21,
+            },
+            "image": Object {
+              "height": 20,
+              "opacity": 0.8,
+              "resizeMode": "contain",
+              "width": 35,
+            },
+            "leftPosition": Object {
+              "left": 6,
+            },
+            "leftShadow": Object {
+              "height": 40,
+              "left": 0,
+              "position": "absolute",
+              "tintColors": Array [
+                "white",
+                "#23282d",
+                "#ffffff20",
+                "#00000010",
+              ],
+              "width": 6,
+            },
+            "line": Object {
+              "backgroundColors": Array [
+                "#eeeeee",
+                "#333333",
+                "#eeeeee",
+                "#333333",
+              ],
+              "height": 0,
+              "left": 0,
+              "position": "absolute",
+              "top": 44,
+            },
+            "littleRedRightPos": 2,
+            "littleRightTabRedPos": 8,
+            "lottieBall": Object {
+              "bottom": 0,
+              "height": 64,
+              "position": "absolute",
+              "width": 202,
+              "zIndex": 9999,
+            },
+            "lottieBallData": Object {
+              "bottom": -10,
+              "height": 76,
+              "position": "absolute",
+              "right": -6,
+              "width": 165,
+            },
+            "newTabTags": Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            "pageTurningTips": Object {
+              "height": 54,
+              "position": "absolute",
+              "right": 0,
+              "top": 4,
+              "width": 182,
+            },
+            "preloadLottie": Object {
+              "bottom": 100,
+              "height": 10,
+              "left": 0,
+              "opacity": 0,
+              "position": "absolute",
+              "width": 10,
+            },
+            "redArrow": Object {
+              "height": 10,
+              "marginRight": 4,
+              "width": 6,
+            },
+            "redDot": Object {
+              "alignItems": "center",
+              "backgroundColors": Array [
+                "#FA7270",
+                "#764143",
+                "#FA7270",
+                "#FA7270",
+              ],
+              "borderColors": Array [
+                "white",
+                "#7f8386",
+                "white",
+                "white",
+              ],
+              "borderRadius": 7.5,
+              "borderWidth": 1,
+              "height": 15,
+              "justifyContent": "center",
+              "position": "absolute",
+              "right": -5,
+              "top": 3,
+            },
+            "redDotBg": Object {
+              "alignItems": "center",
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "#eeeeee",
+                "#333333",
+              ],
+              "height": 40,
+              "justifyContent": "center",
+              "position": "absolute",
+              "right": 13,
+              "top": 0,
+            },
+            "redDotCnt": Object {
+              "alignItems": "center",
+              "backgroundColors": Array [
+                "#FA7270",
+                "#764143",
+                "#FA7270",
+                "#FA7270",
+              ],
+              "borderColors": Array [
+                "white",
+                "#7f8386",
+                "white",
+                "white",
+              ],
+              "borderRadius": 10.5,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 21,
+              "justifyContent": "space-between",
+            },
+            "redDotCntContent": Object {
+              "marginLeft": 6,
+            },
+            "redDotNum": Object {
+              "colors": Array [
+                "white",
+                "#7f8386",
+                "white",
+                "white",
+              ],
+              "fontSize": 11,
+            },
+            "redDotWidth1": 15,
+            "redDotWidth2": 20,
+            "redEllipsis": Object {
+              "height": 2,
+              "width": 8,
+            },
+            "redNum": Object {
+              "colors": Array [
+                "white",
+                "#7f8386",
+                "white",
+                "white",
+              ],
+              "fontSize": 13,
+              "textAlign": "center",
+            },
+            "redRightPos": -5,
+            "redWidth1": 28,
+            "redWidth2": 35,
+            "redWidth3": 34,
+            "refreshTipsBG": Object {
+              "height": 62,
+              "width": 62,
+            },
+            "refreshTipsEnter": Object {
+              "bottom": 0,
+              "height": 62,
+              "position": "absolute",
+              "width": 62,
+              "zIndex": 9999,
+            },
+            "refreshTipsEnterImg": Object {
+              "height": 25,
+              "marginLeft": 18.5,
+              "marginTop": 18.5,
+              "position": "absolute",
+              "width": 25,
+              "zIndex": 1,
+            },
+            "refreshTipsEnterImg_arrow_0": Object {
+              "height": 9,
+              "marginLeft": 21.5,
+              "marginTop": 22,
+              "width": 18,
+              "zIndex": 1,
+            },
+            "refreshTipsEnterImg_arrow_1": Object {
+              "height": 9,
+              "marginLeft": 21.5,
+              "marginTop": 0,
+              "width": 18,
+              "zIndex": 1,
+            },
+            "resetAnimation": Object {
+              "transform": Array [
+                Object {
+                  "rotate": "0deg",
+                },
+              ],
+            },
+            "rightPosition": Object {
+              "right": 6,
+            },
+            "rightShadow": Object {
+              "height": 40,
+              "position": "absolute",
+              "tintColors": Array [
+                "white",
+                "#23282d",
+                "#ffffff20",
+                "#00000010",
+              ],
+              "width": 12,
+            },
+            "rightShadowPos": 34,
+            "rightTabRedPos": 1,
+            "showNewTabs": Object {
+              "alignItems": "center",
+              "height": 20,
+              "justifyContent": "center",
+              "position": "absolute",
+              "right": 4.5,
+              "top": 28,
+              "width": 49,
+            },
+            "specialFocusImage": Object {
+              "backgroundColors": Array [
+                "transparent",
+                "transparent",
+                "transparent",
+                "transparent",
+              ],
+              "height": 40,
+              "marginTop": -1,
+              "resizeMode": "contain",
+            },
+            "specialImage": Object {
+              "backgroundColors": Array [
+                "transparent",
+                "transparent",
+                "transparent",
+                "transparent",
+              ],
+              "height": 40,
+              "marginTop": 1,
+              "resizeMode": "contain",
+            },
+            "tabIconFocusType": Array [
+              63,
+              42,
+              63,
+              81,
+              70,
+              91,
+              109,
+            ],
+            "tabIconType": Array [
+              48,
+              32,
+              48,
+              64,
+              53,
+              69,
+              85,
+            ],
+            "tabTitle": Object {
+              "colors": Array [
+                "white",
+                "#7f8386",
+                "#ffffff20",
+                "white",
+              ],
+              "fontSize": 9,
+              "paddingTop": 2,
+              "textAlign": "center",
+              "textAlignVertical": "center",
+            },
+            "tips": Object {
+              "alignItems": "center",
+              "height": 32,
+              "justifyContent": "center",
+              "left": 10,
+              "position": "absolute",
+              "top": 32,
+              "width": 131,
+            },
+            "tipsBg": Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "resizeMode": "stretch",
+              "right": 0,
+              "top": 0,
+            },
+            "tipsText": Object {
+              "colors": Array [
+                "white",
+                "#7f8386",
+                "#ffffff20",
+                "white",
+              ],
+              "fontSize": 14,
+              "marginHorizontal": 4,
+              "marginTop": 4,
+              "textAlign": "center",
+            },
+            "tipsTextContainer": Object {
+              "alignItems": "center",
+              "backgroundColors": Array [
+                "#000000cc",
+                "#000000cc",
+                "#000000cc",
+                "#000000cc",
+              ],
+              "borderRadius": 2,
+              "height": 28,
+              "justifyContent": "center",
+              "paddingHorizontal": 4,
+            },
+            "triangle": Object {
+              "borderBottomColors": Array [
+                "#000000cc",
+                "#000000cc",
+                "#000000cc",
+                "#000000cc",
+              ],
+              "borderBottomWidth": 7,
+              "borderLeftColor": "transparent",
+              "borderLeftWidth": 7,
+              "borderRightColor": "transparent",
+              "borderRightWidth": 7,
+              "borderTopColor": "transparent",
+              "height": 0,
+              "left": 12,
+              "position": "absolute",
+              "top": 0,
+              "width": 0,
+            },
+          },
+          "tabList": Object {
+            "adrTabInfo": Object {
+              "textColors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "textSelectColors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+            },
+            "focusText": Object {
+              "fontSize": 21,
+              "fontWeight": "bold",
+              "marginTop": -2,
+              "opacity": 1,
+            },
+            "focusView": Object {
+              "paddingBottom": -1,
+            },
+            "itemText": Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "opacity": 0.8,
+              "textAlign": "center",
+              "textAlignVertical": "center",
+            },
+            "navItem": Object {
+              "alignItems": "center",
+              "backgroundColor": "#00000000",
+              "justifyContent": "center",
+              "overflow": "visible",
+            },
+            "shadow": Object {
+              "position": "absolute",
+              "tintColors": Array [
+                "white",
+                "#202429",
+                "#fffffff2",
+                "#000000f2",
+              ],
+              "top": 0,
+            },
+            "tabInfo": Object {
+              "tabScrollBarBottomMargin": 0,
+              "tabScrollBarColors": Array [
+                "#1776F1",
+                "#395c86",
+                "#1776F1",
+                "#1776F1",
+              ],
+              "tabScrollBarCornerRadius": 2,
+              "tabScrollBarEnable": true,
+              "tabScrollBarHeight": 0,
+              "tabScrollBarMaxStretchWidth": 100,
+              "tabScrollBarSecondColors": Array [
+                "#00DD6E",
+                "#05B551",
+                "#00DD6E",
+                "#00DD6E",
+              ],
+              "tabScrollBarStretch": true,
+              "tabScrollBarWidth": 42,
+              "tabSwitchAnimationEnabled": true,
+              "tabViewBackgroundColors": Array [
+                "#00000000",
+                "#00000000",
+                "#ffffffbf",
+                "#0000007f",
+              ],
+              "tapScrollCenterEnable": true,
+              "textSelectBold": true,
+              "useCustomTabWidth": true,
+            },
+            "tabParam": Object {
+              "focusWidth2": 44,
+              "focusWidth3": 65,
+              "focusWidth4": 86,
+              "height": 40,
+              "leftPadding": 12,
+              "paddingLeft": 7.5,
+              "paddingRight": 7.5,
+              "rightPadding": 13,
+              "width2": 35,
+              "width3": 49,
+              "width4": 67,
+            },
+            "triangle": Object {
+              "borderBottomWidth": 8,
+              "borderLeftColor": "transparent",
+              "borderLeftWidth": 8,
+              "borderRightColor": "transparent",
+              "borderRightWidth": 8,
+              "borderTopColor": "transparent",
+              "height": 0,
+              "width": 0,
+            },
+            "welfare_wrap": Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "paddingRight": 16,
+              "position": "relative",
+            },
+            "wrap": Object {
+              "flex": 1,
+              "flexDirection": "column",
+            },
+          },
+        },
+        "version": 1,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 0,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F977%2F26189977%2Ft3_26189977.jpg&bookid=1126189977"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="帝少今天又醋了"
+              >
+                帝少今天又醋了
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="9.8分"
+                >
+                  9.8分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="纪以宁是霍家流落在外二十多年的亲生女儿。某日，回到京城寻亲，发现她的位置早被一个养女给代替了。养女妹妹捂嘴娇笑：“姐姐，对不起啊，你未婚夫说他现在只想和我在一起。”纪以宁：“啊？这么重口味？给你，赶紧拿走，这么丑的男人也就只有你配的上了。”*娱乐圈人人都知，薄氏那位大人物对其妻子纪以宁冷淡至极，出席公众场合，也绝不多看她一眼。这是要离婚的征兆啊！女明星们兴奋不已，恨不得马上放鞭炮。宴会之后——有人看到，那位大人物将人摁在怀里，冷着脸威胁：“没看到我生气了吗？快哄我。”众人：“？？？”大佬，你拿错剧本了吧！    娱乐圈文，女主是怼天怼地怼到对方怀疑人生的小仙女。"
+              >
+                纪以宁是霍家流落在外二十多年的亲生女儿。某日，回到京城寻亲，发现她的位置早被一个养女给代替了。养女妹妹捂嘴娇笑：“姐姐，对不起啊，你未婚夫说他现在只想和我在一起。”纪以宁：“啊？这么重口味？给你，赶紧拿走，这么丑的男人也就只有你配的上了。”*娱乐圈人人都知，薄氏那位大人物对其妻子纪以宁冷淡至极，出席公众场合，也绝不多看她一眼。这是要离婚的征兆啊！女明星们兴奋不已，恨不得马上放鞭炮。宴会之后——有人看到，那位大人物将人摁在怀里，冷着脸威胁：“没看到我生气了吗？快哄我。”众人：“？？？”大佬，你拿错剧本了吧！    娱乐圈文，女主是怼天怼地怼到对方怀疑人生的小仙女。
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="豪门世家"
+                >
+                  豪门世家
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="连载中"
+                >
+                  连载中
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="近水楼台"
+                  >
+                    近水楼台
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="破镜重圆"
+                  >
+                    破镜重圆
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="先婚后爱"
+                  >
+                    先婚后爱
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F487%2F14928487%2Ft3_14928487.jpg&bookid=1114928487"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="和霸总小叔结婚后我红了"
+              >
+                和霸总小叔结婚后我红了
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="9.8分"
+                >
+                  9.8分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="［完结宠文］她遭未婚夫抛弃，嫁给了网上的‘大叔’，结果大叔变成了杀伐果断、富可敌国的冷面帅气大总裁，狠狠地打了渣男和渣女的脸，从此大叔走上了宠妻的不归之路。小包子：“爹地！妈咪是我的！”男人冷漠的瞪了儿子一眼，“老婆是我的！”小包子不服：“妈咪是我的！”男人瞪着儿子说道：“哪里凉快，哪里待着去。”花样宠妻，不怕甜掉牙，戳进来！VIP书友群：618895719普通书友交流群：479994577"
+              >
+                ［完结宠文］她遭未婚夫抛弃，嫁给了网上的‘大叔’，结果大叔变成了杀伐果断、富可敌国的冷面帅气大总裁，狠狠地打了渣男和渣女的脸，从此大叔走上了宠妻的不归之路。小包子：“爹地！妈咪是我的！”男人冷漠的瞪了儿子一眼，“老婆是我的！”小包子不服：“妈咪是我的！”男人瞪着儿子说道：“哪里凉快，哪里待着去。”花样宠妻，不怕甜掉牙，戳进来！VIP书友群：618895719普通书友交流群：479994577
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="豪门世家"
+                >
+                  豪门世家
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="已完结"
+                >
+                  已完结
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="隐婚"
+                  >
+                    隐婚
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="先婚后爱"
+                  >
+                    先婚后爱
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="1万加书"
+                  >
+                    1万加书
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F685%2F35538685%2Ft3_35538685.jpg&bookid=1135538685"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="你要乖，因为爷是病娇啊"
+              >
+                你要乖，因为爷是病娇啊
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="8.0分"
+                >
+                  8.0分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="【强强+爽度100%+甜度100%+霸宠】顾叔说她活不过25岁。祈姐不想年纪轻轻狗带，听说他能救她狗命！城里有位爷，人美，病娇，大长腿！他比她病的还厉害，能救她？爷说：‘可，但你得乖，要疼我顺我，因为爷是病娇。’祈姐点头：‘可！’她以为他是病娇贵公子，但他是头大狼！‘你有完没完？’‘我有完没完取决于你。’‘卑鄙！’‘不卑鄙，你又怎会乖乖被我抱？’是她眼瞎——笙爷：‘我爱上了你。’求问，病娇大佬太缠人怎么办？在线等，挺急的！【看文自带盐，因为文齁甜！】"
+              >
+                【强强+爽度100%+甜度100%+霸宠】顾叔说她活不过25岁。祈姐不想年纪轻轻狗带，听说他能救她狗命！城里有位爷，人美，病娇，大长腿！他比她病的还厉害，能救她？爷说：‘可，但你得乖，要疼我顺我，因为爷是病娇。’祈姐点头：‘可！’她以为他是病娇贵公子，但他是头大狼！‘你有完没完？’‘我有完没完取决于你。’‘卑鄙！’‘不卑鄙，你又怎会乖乖被我抱？’是她眼瞎——笙爷：‘我爱上了你。’求问，病娇大佬太缠人怎么办？在线等，挺急的！【看文自带盐，因为文齁甜！】
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="豪门世家"
+                >
+                  豪门世家
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="连载中"
+                >
+                  连载中
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="1万加书"
+                  >
+                    1万加书
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="现言"
+                  >
+                    现言
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F416%2F216416%2Ft3_216416.jpg&bookid=1100216416"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="主宰之王"
+              >
+                主宰之王
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="9.2分"
+                >
+                  9.2分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="他意志坚韧，不甘平庸，却资质平平，出自卑微的支族。一次意外，他融合一只太古神灵的眼睛，从此鲤鱼跃龙门，如彗星般崛起，踏上传奇修行之路。从渺小蝼蚁的世界底层，步步生莲，踏入这个宗门林立、天才如云、远古万族、神话争锋、波澜壮阔的大时代。————  【新书《永恒之心》 已经发布】  可以交流，获取更多独家资讯。"
+              >
+                他意志坚韧，不甘平庸，却资质平平，出自卑微的支族。一次意外，他融合一只太古神灵的眼睛，从此鲤鱼跃龙门，如彗星般崛起，踏上传奇修行之路。从渺小蝼蚁的世界底层，步步生莲，踏入这个宗门林立、天才如云、远古万族、神话争锋、波澜壮阔的大时代。————  【新书《永恒之心》 已经发布】  可以交流，获取更多独家资讯。
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="东方玄幻"
+                >
+                  东方玄幻
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="已完结"
+                >
+                  已完结
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="洪荒"
+                  >
+                    洪荒
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="草根崛起"
+                  >
+                    草根崛起
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="天才流"
+                  >
+                    天才流
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F513%2F162513%2Ft3_162513.jpg&bookid=1100162513"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="聿少的专宠新娘"
+              >
+                聿少的专宠新娘
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="9.0分"
+                >
+                  9.0分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="一场婚姻，换来的是右手差点残废，她这辈子都不能再碰钢琴。离开聿尊之后，她苟且偷生，另一个男人，却肯接受她全部的不堪，并且愿意当她的另外一只手。却不料,聿尊会再次以一副残忍的姿态出现，粉碎她虚构的美好。"
+              >
+                一场婚姻，换来的是右手差点残废，她这辈子都不能再碰钢琴。离开聿尊之后，她苟且偷生，另一个男人，却肯接受她全部的不堪，并且愿意当她的另外一只手。却不料,聿尊会再次以一副残忍的姿态出现，粉碎她虚构的美好。
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="都市生活"
+                >
+                  都市生活
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="已完结"
+                >
+                  已完结
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="1万加书"
+                  >
+                    1万加书
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="10万书友读过"
+                  >
+                    10万书友读过
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="好评如潮"
+                  >
+                    好评如潮
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F325%2F36093325%2Ft3_36093325.jpg&bookid=1136093325"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="团宠真千金她马甲又掉了"
+              >
+                团宠真千金她马甲又掉了
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="8.0分"
+                >
+                  8.0分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="黎楚兮一直以为自己是鸠占鹊巢的假千金，被真千金陷害、抹黑、抢走未婚夫，最后在雨夜被撞死街头。临死前却得知，她原来是权势滔天、甩黎家十条街的超级豪门盛家寻找多年的真千金！重生归来，黎楚兮、啊不，盛楚兮，果断离开黎家这个伤心地，火速到盛家认亲。盛家上到盛老爷子，下到五个哥哥，全都将她捧在手心里。大哥：“什么，黎家竟敢欺负小兮？三天之内，我要让黎家消失在帝都！”二哥三哥四哥五哥：“附议！”季清展：“那个，各位舅子们，能不能让一让，我来接我老婆回家——”哥哥们：“不行！要想娶走小兮，必须先过我们这一关！”后来，随着盛楚兮一个个马甲曝光，科研大佬，超级黑客，设计大拿……轻轻松松横扫娱乐圈、爆火全球！粉丝们：“女神好帅，娶我！”季清展：“小兮是我的！”季清展：“老婆太受欢迎怎么办？在线"
+              >
+                黎楚兮一直以为自己是鸠占鹊巢的假千金，被真千金陷害、抹黑、抢走未婚夫，最后在雨夜被撞死街头。临死前却得知，她原来是权势滔天、甩黎家十条街的超级豪门盛家寻找多年的真千金！重生归来，黎楚兮、啊不，盛楚兮，果断离开黎家这个伤心地，火速到盛家认亲。盛家上到盛老爷子，下到五个哥哥，全都将她捧在手心里。大哥：“什么，黎家竟敢欺负小兮？三天之内，我要让黎家消失在帝都！”二哥三哥四哥五哥：“附议！”季清展：“那个，各位舅子们，能不能让一让，我来接我老婆回家——”哥哥们：“不行！要想娶走小兮，必须先过我们这一关！”后来，随着盛楚兮一个个马甲曝光，科研大佬，超级黑客，设计大拿……轻轻松松横扫娱乐圈、爆火全球！粉丝们：“女神好帅，娶我！”季清展：“小兮是我的！”季清展：“老婆太受欢迎怎么办？在线
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="豪门世家"
+                >
+                  豪门世家
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="连载中"
+                >
+                  连载中
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="现言"
+                  >
+                    现言
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F121%2F13553121%2Ft3_13553121.jpg&bookid=1113553121"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="一次一夜：顾少诱妻成瘾"
+              >
+                一次一夜：顾少诱妻成瘾
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="8.7分"
+                >
+                  8.7分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="传闻，掌控半个亚洲经济命脉的顾氏集团总裁顾琰是个长相奇丑的性无能。机缘巧合下，十八线小明星林清浅竟被顾少看中，成为她背后的神秘大金主！她与他缠绵，他为她沉沦，顾琰想，是该生个孩子，绑住这个不安分的小女人了……某大型颁奖典礼上，林清浅作为影后提名候选人，带着顾少和宝宝正式亮相，震惊整个娱乐圈。媒体不怕死地刁难：“请问林小姐，听说顾少不行，孩子是试管婴儿吗？”顾琰邪魅一笑：“是不太行，一夜就一次，一次一整夜！另外，请称呼她为顾太太，因为，她是我顾琰最爱的女人！”"
+              >
+                传闻，掌控半个亚洲经济命脉的顾氏集团总裁顾琰是个长相奇丑的性无能。机缘巧合下，十八线小明星林清浅竟被顾少看中，成为她背后的神秘大金主！她与他缠绵，他为她沉沦，顾琰想，是该生个孩子，绑住这个不安分的小女人了……某大型颁奖典礼上，林清浅作为影后提名候选人，带着顾少和宝宝正式亮相，震惊整个娱乐圈。媒体不怕死地刁难：“请问林小姐，听说顾少不行，孩子是试管婴儿吗？”顾琰邪魅一笑：“是不太行，一夜就一次，一次一整夜！另外，请称呼她为顾太太，因为，她是我顾琰最爱的女人！”
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="娱乐明星"
+                >
+                  娱乐明星
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="已完结"
+                >
+                  已完结
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="宝宝"
+                  >
+                    宝宝
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="排行榜TOP100"
+                  >
+                    排行榜TOP100
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="1万加书"
+                  >
+                    1万加书
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F18%2F27403018%2Ft3_27403018.jpg&bookid=1127403018"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="漫天星河皆为你"
+              >
+                漫天星河皆为你
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="9.9分"
+                >
+                  9.9分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="【已完结短篇小甜饼】       “你是我的久别重逢，亦是我的失而复得。”为了追回因误会分手的前女友，孟星河开了一个小号。某天，他小号的马甲突然掉了。许漫发现，给集团太子爷助理开车的前男友，竟然摇身一变成了太子爷本人。某大尾巴狼将她堵在门口：“听说你到处宣扬我是你未婚夫？”"
+              >
+                【已完结短篇小甜饼】       “你是我的久别重逢，亦是我的失而复得。”为了追回因误会分手的前女友，孟星河开了一个小号。某天，他小号的马甲突然掉了。许漫发现，给集团太子爷助理开车的前男友，竟然摇身一变成了太子爷本人。某大尾巴狼将她堵在门口：“听说你到处宣扬我是你未婚夫？”
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="短篇小说"
+                >
+                  短篇小说
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="已完结"
+                >
+                  已完结
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="别后重逢"
+                  >
+                    别后重逢
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="马甲"
+                  >
+                    马甲
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="1万加书"
+                  >
+                    1万加书
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F937%2F36496937%2Ft3_36496937.jpg&bookid=1136496937"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="斗罗之我的老婆是龙王"
+              >
+                斗罗之我的老婆是龙王
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="8.4分"
+                >
+                  8.4分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="【本书全书免费，永不上架，永不收费，欢迎入坑！】萧尘开局穿越唤醒银龙王古月娜，成为银龙王的骑士。然后他获得了签到系统。从此，他踏上了龙王养成的道路，每天签到，修炼，调教龙王。等到他出山之时，斗罗世界便开始流传着关于一段龙骑士的传说。本书又名《龙王养成计划》《龙骑士，冲锋！》"
+              >
+                【本书全书免费，永不上架，永不收费，欢迎入坑！】萧尘开局穿越唤醒银龙王古月娜，成为银龙王的骑士。然后他获得了签到系统。从此，他踏上了龙王养成的道路，每天签到，修炼，调教龙王。等到他出山之时，斗罗世界便开始流传着关于一段龙骑士的传说。本书又名《龙王养成计划》《龙骑士，冲锋！》
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="衍生同人"
+                >
+                  衍生同人
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="连载中"
+                >
+                  连载中
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="排行榜TOP100"
+                  >
+                    排行榜TOP100
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="1万加书"
+                  >
+                    1万加书
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="轻小说"
+                  >
+                    轻小说
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          onClick={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 12,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              Object {
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "height": 84.48,
+                  "marginRight": 12,
+                  "width": 63.36,
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "position": "relative",
+                  },
+                  Object {
+                    "height": 84.48,
+                    "width": 63.36,
+                  },
+                ]
+              }
+            >
+              <img
+                alt=""
+                nativeName="Image"
+                reportData={
+                  Object {
+                    "sourceFrom": "2_26_1616383402904_77",
+                  }
+                }
+                src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F170%2F753170%2Ft3_753170.jpg&bookid=1100753170"
+                style={
+                  Object {
+                    "0": Object {
+                      "borderRadius": 6,
+                      "height": 84.48,
+                      "width": 63.36,
+                    },
+                    "1": Object {
+                      "borderColors": Array [
+                        "#e5e5e5",
+                        "#31363b",
+                        "#00000010",
+                        "#ffffff10",
+                      ],
+                      "borderWidth": 0.5,
+                    },
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                },
+                Object {},
+              ]
+            }
+          >
+            <div
+              nativeName="View"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "height": 24,
+                    "justifyContent": "space-between",
+                    "marginBottom": 4,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "colors": Array [
+                        "#000000",
+                        "#686D74",
+                        "#000000",
+                        "#ffffff",
+                      ],
+                      "flex": 3,
+                      "fontFamily": "PingFangSC-Regular",
+                      "fontSize": 17,
+                      "lineHeight": 24,
+                    },
+                    Object {},
+                  ]
+                }
+                text="有你的青春是暖暖的"
+              >
+                有你的青春是暖暖的
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                  }
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "#FF796E",
+                          "#794543",
+                          "#FF796E",
+                          "#794543",
+                        ],
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 24,
+                      },
+                      Object {},
+                    ]
+                  }
+                  text="8.9分"
+                >
+                  8.9分
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={Object {}}
+            >
+              <p
+                nativeName="Text"
+                numberOfLines={2}
+                style={
+                  Object {
+                    "colors": Array [
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(104, 109, 116, 0.4)",
+                      "rgba(0, 0, 0, 0.4)",
+                      "rgba(255, 255, 255, 0.55)",
+                    ],
+                    "flex": 1,
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  }
+                }
+                text="他是权势滔天的骄子。她是风华绝代的遗孤。她十二岁，他十三岁，她来到他身边。从此，她是他的女孩，见证他从一个问题少年蜕变成风姿卓越的名流贵公子。后来，他过上了管家公的生活，事无巨细地照顾她，并且规划了她的未来，他说：“小尹，你20岁才准谈恋爱，22岁才能接吻，24岁才可以结婚，当然，这个对象只能是我……”她从来都不知道，这一路走来，她之所以走得一帆风顺，是因为，她身后始终有一个他，为她挡风遮雨，只要她累了，转过身，他就会温柔拥住她，她说：“我们结婚吧。”【文艺版小剧场】某夜，某尹兴头大起，把昏睡中的某胤挖起来，一脸认真地问：“如果有一天，我跟你分手了，你会怎么样？”某胤睡得昏昏沉沉，朦胧答曰：“没事，还没到那一天你就被我惯成小祖宗了，那么泼妇哪有人要啊？”“那我没人要怎么办？”“唔…"
+              >
+                他是权势滔天的骄子。她是风华绝代的遗孤。她十二岁，他十三岁，她来到他身边。从此，她是他的女孩，见证他从一个问题少年蜕变成风姿卓越的名流贵公子。后来，他过上了管家公的生活，事无巨细地照顾她，并且规划了她的未来，他说：“小尹，你20岁才准谈恋爱，22岁才能接吻，24岁才可以结婚，当然，这个对象只能是我……”她从来都不知道，这一路走来，她之所以走得一帆风顺，是因为，她身后始终有一个他，为她挡风遮雨，只要她累了，转过身，他就会温柔拥住她，她说：“我们结婚吧。”【文艺版小剧场】某夜，某尹兴头大起，把昏睡中的某胤挖起来，一脸认真地问：“如果有一天，我跟你分手了，你会怎么样？”某胤睡得昏昏沉沉，朦胧答曰：“没事，还没到那一天你就被我惯成小祖宗了，那么泼妇哪有人要啊？”“那我没人要怎么办？”“唔…
+              </p>
+              <div
+                nativeName="View"
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "marginTop": 8,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="青春纯爱"
+                >
+                  青春纯爱
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Array [
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(104, 109, 116, 0.4)",
+                          "rgba(0, 0, 0, 0.4)",
+                          "rgba(255, 255, 255, 0.55)",
+                        ],
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "colors": Array [
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                          "rgba(0, 0, 0, 0.2)",
+                          "rgba(104, 109, 116, 0.2)",
+                        ],
+                      },
+                    ]
+                  }
+                  text="|"
+                >
+                  |
+                </p>
+                <p
+                  nativeName="Text"
+                  style={
+                    Object {
+                      "colors": Array [
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(104, 109, 116, 0.4)",
+                        "rgba(0, 0, 0, 0.4)",
+                        "rgba(255, 255, 255, 0.55)",
+                      ],
+                      "fontSize": 12,
+                      "lineHeight": 16,
+                      "marginRight": 8,
+                    }
+                  }
+                  text="已完结"
+                >
+                  已完结
+                </p>
+              </div>
+            </div>
+            <div
+              nativeName="View"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 16,
+                  "justifyContent": "space-around",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <div
+                nativeName="View"
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "height": 16,
+                    "justifyContent": "flex-start",
+                    "overflow": "hidden",
+                    "paddingRight": 16,
+                  }
+                }
+              >
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#23B787",
+                            "#215E4D",
+                            "#23B787",
+                            "#215E4D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="青梅竹马"
+                  >
+                    青梅竹马
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#4CB2FF",
+                            "#315C7D",
+                            "#4CB2FF",
+                            "#315C7D",
+                          ],
+                        },
+                      ]
+                    }
+                    text="10万书友读过"
+                  >
+                    10万书友读过
+                  </p>
+                </div>
+                <div
+                  nativeName="View"
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <p
+                    nativeName="Text"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "marginRight": 8,
+                        },
+                        Object {
+                          "colors": Array [
+                            "#7882CD",
+                            "#434969",
+                            "#7882CD",
+                            "#434969",
+                          ],
+                        },
+                      ]
+                    }
+                    text="高分佳作"
+                  >
+                    高分佳作
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

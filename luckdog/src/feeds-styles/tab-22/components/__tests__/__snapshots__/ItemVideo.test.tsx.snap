@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemVideo/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "overflow": "hidden",
+    }
+  }
+>
+  <div
+    controls={false}
+    extraParams={
+      Object {
+        "disableMobileToast": "false",
+        "reusePlayer": "true",
+        "videoTitle": "",
+      }
+    }
+    loop={false}
+    muted={true}
+    nativeName="QBVideoView"
+    onDurationChange={[Function]}
+    onEnd={[Function]}
+    onExitFullScreen={[Function]}
+    onPause={[Function]}
+    onPlay={[Function]}
+    onReset={[Function]}
+    onTimeUpdate={[Function]}
+    onVideoExtraEvent={[Function]}
+    poster=""
+    src={
+      Object {
+        "uri": "",
+      }
+    }
+    style={
+      Object {
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+  <img
+    alt=""
+    nativeName="Image"
+    reportData={
+      Object {
+        "sourceFrom": undefined,
+      }
+    }
+    style={Object {}}
+  />
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "bottom": 0,
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 1000,
+        },
+        undefined,
+      ]
+    }
+  >
+    <img
+      alt=""
+      nativeName="Image"
+      noPicMode={
+        Object {
+          "enable": false,
+        }
+      }
+      onClick={[Function]}
+      resizeMode="contain"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABVCAMAAAA/p0lJAAAAz1BMVEUAAAAAAAAAAAAAAAAAAAAJCQns7O37+/vy8vK0tLQuLi7r6+v4+Pjm5ubQ0NCUlJaGhobx8fLy8vPh4eL9/f3t7e3t7e7e3t709PTa2trk5ObIyMjFxcWKiovExMR7e3tTU1P09PXm5ubl5eXp6eny8vLp6ena2trR0dHx8fHV1dXExMTg4ODAwMFiYmK3t7efn59MTEz8/Pzi4uL4+PjPz8/l5eXW1tnW1tahoaH////9/f329vf19fby8vL4+Pn6+vvz8/Pu7u7p6enm5uZVRDeCAAAAOnRSTlMABwoOGRP48u9AI9nRtWRCHfvm3dvTxbGopYB4Sj04Jhn27OHey56Rj456a11XMC8uJuXLtJ5sa1dJJmNxHgAAA59JREFUWMPt2XtT2kAUBfCGEBBBxGfV+rY+q1X7LiEhCX7/z9R9JWc3d2HZ0L86PY7OqDO/OffuBnV89z9/M4H5tjLGPiD8S6tw7L0VoJsgV2nJBfRTnzRv15JIq4pSG1bUtJAFpJzav53STu8H3Wz322MkzaYdFTc6GMvEX36Yon89Nujz7rj04nhwrOb2rxhIbiQ4BWbZ9OCFif5rDEpPDgtv2j06h+jRUXKn3MHAzJtMtoehLvpMG96PzX4cTJL9nvcalTfQOdmPeXl6c0bW6Fwf46LuuL6/KffydO0hIqK7XjQmnuyXpkX/OITYWgwGdi/WvaLYeMEaHRWlF0U1jheEV3Ruz5cbOlDra5ue4HhB5RWzy2G01G0kHplXerPZ117o7hgs7729HZ4Za7SKjFs072SaxbHwk3T2dvmANdqPOoBXez6Yl8Vj88uT4urJWCO9zfP7AdMz6dfWaJp2j4FEw3f3ehq4sB/A+RrP9akuBs79OTjWfv+5Ap395mOMkx7LzagCQfp4OiZev3+FoQQb9tM1kSPZkCn+/bRuU8bJ+/6Igl794hrHIryLUWgWhOexOKnxJEco6NFP0/ioQpPenjwS5/5AGRqqCS1JtuCRfs5Zp8aonEvSyKMfMFlPWlOhyeTMCx396KHSc5BYkued0gus/dyHinI5S7rj7gcNi8vsWpreLd2PlMOoIsLrnDn70Vlx39AulfkeOe4fMOPhmiiwaibBnTY80s9+RUQMTXiSe43EuLQf9SimUmJpcdjW6gWkHzlV41AxqsrVJudUPXu/WIA4VCxOVUuSVHmdD23GMW/B6x/pxlO7cop7v25y6Ec9hWUYteTKch/ZqLQd7Ydy9HHgHEYFN//nGzY352HAqEIDZ+/HNEc5OSrhdBAebhxOdYLF1UZ1//4S4+GSwTFUo74KDRzaIfDMF2BoCuyf2MoFNa3yrM8qbtzaJ6qBQ+BpFhl163CdjAqNLJB74EoN3P6JoxxSeTjTerntJ4dGD5h5Xb1cjnLFnW1UwpELOLCPuvHZVi4gHLmAP6Vmcv3fdo2E/oEUrQEjd8QYVYGugse1blu3WJz1HBwLjIY5zgGL89XwF3W7t11peye2UTGpuyBv2B5eX/C9bWxaNFDOggAR78UhAJkIzFdDQQVyUQSax+IQBXIRgQbMtyHIVjMNJEQWYMzyB8V+qigKi2sYmFW1lTAUlbXQrTmpEuDzlUDHvwMa1/xH8wdryh0IwFSioAAAAABJRU5ErkJggg=="
+      style={
+        Object {
+          "0": Object {
+            "height": 44,
+            "width": 44,
+          },
+          "1": undefined,
+        }
+      }
+    />
+  </div>
+</div>
+`;

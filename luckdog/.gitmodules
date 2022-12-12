@@ -1,0 +1,4 @@
+[submodule "__toolkit"]
+	path = __toolkit
+	url = http://git.code.oa.com/mig_novel/hippy/hippy-novel-toolkit.git
+	branch = feat/novelfeeds

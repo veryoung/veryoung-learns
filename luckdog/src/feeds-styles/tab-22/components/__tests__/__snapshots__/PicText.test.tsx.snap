@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PicText/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  onClick={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+      },
+      Object {
+        "paddingTop": 12,
+      },
+    ]
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "height": 84.48,
+          "marginRight": 12,
+          "width": 63.36,
+        },
+        Object {},
+      ]
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "position": "relative",
+          },
+          Object {
+            "height": 84.48,
+            "width": 63.36,
+          },
+        ]
+      }
+    >
+      <img
+        alt=""
+        nativeName="Image"
+        reportData={
+          Object {
+            "sourceFrom": "",
+          }
+        }
+        src="https://novel.imqq.com/bookshelf/images/huodong/free-1572428142.png"
+        style={
+          Object {
+            "0": Object {
+              "borderRadius": 6,
+              "height": 84.48,
+              "width": 63.36,
+            },
+            "1": Object {
+              "borderColors": Array [
+                "#e5e5e5",
+                "#31363b",
+                "#00000010",
+                "#ffffff10",
+              ],
+              "borderWidth": 0.5,
+            },
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        },
+        Object {},
+      ]
+    }
+  />
+</div>
+`;

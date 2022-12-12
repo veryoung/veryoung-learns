@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle426/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={Object {}}
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "height": 0,
+        },
+      ]
+    }
+  />
+  <div
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 7.68,
+        "paddingHorizontal": 7.68,
+      }
+    }
+    horizontal={true}
+    nativeName="ScrollView"
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    scrollEventThrottle={10}
+    sendMomentumEvents={true}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "collapse": false,
+            "flexDirection": "row",
+          },
+          Object {
+            "paddingBottom": 7.68,
+            "paddingHorizontal": 7.68,
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

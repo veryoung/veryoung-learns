@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle428/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={Object {}}
+/>
+`;

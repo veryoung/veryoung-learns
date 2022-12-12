@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsTabBar/> render testing render icon tab 1`] = `
+<div
+  dt_pg_params="rnVersion=8352&tab_id=112"
+  dt_pgid="14"
+  nativeName="View"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColors": Array [
+          "transparent",
+        ],
+        "justifyContent": "center",
+        "overflow": "visible",
+      },
+      Object {
+        "paddingLeft": 12,
+        "paddingRight": 7.5,
+      },
+      null,
+    ]
+  }
+>
+  <img
+    accessibilityLabel="故事馆"
+    accessible={true}
+    alt=""
+    nativeName="Image"
+    nightMode={
+      Object {
+        "enable": false,
+      }
+    }
+    noPicMode={
+      Object {
+        "enable": false,
+      }
+    }
+    onError={[Function]}
+    reportData={
+      Object {
+        "sourceFrom": "tabImage",
+      }
+    }
+    src="https://qbnovel.qq.com/static/ug_video_tap"
+    style={
+      Object {
+        "0": Object {
+          "backgroundColors": Array [
+            "transparent",
+            "transparent",
+            "transparent",
+            "transparent",
+          ],
+          "height": 40,
+          "marginTop": 1,
+          "resizeMode": "contain",
+        },
+        "1": Object {
+          "width": 53,
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<FeedsTabBar/> render testing render icon tab when icon fetch error 1`] = `
+<div
+  dt_pg_params="rnVersion=8352&tab_id=112"
+  dt_pgid="14"
+  nativeName="View"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColors": Array [
+          "transparent",
+        ],
+        "justifyContent": "center",
+        "overflow": "visible",
+      },
+      Object {
+        "paddingLeft": 12,
+        "paddingRight": 7.5,
+      },
+      null,
+    ]
+  }
+>
+  <img
+    accessibilityLabel="故事馆"
+    accessible={true}
+    alt=""
+    nativeName="Image"
+    nightMode={
+      Object {
+        "enable": false,
+      }
+    }
+    noPicMode={
+      Object {
+        "enable": false,
+      }
+    }
+    onError={[Function]}
+    reportData={
+      Object {
+        "sourceFrom": "tabImage",
+      }
+    }
+    src="https://qbnovel.qq.com/an_error_url"
+    style={
+      Object {
+        "0": Object {
+          "backgroundColors": Array [
+            "transparent",
+            "transparent",
+            "transparent",
+            "transparent",
+          ],
+          "height": 40,
+          "marginTop": 1,
+          "resizeMode": "contain",
+        },
+        "1": Object {
+          "width": 53,
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<FeedsTabBar/> render testing render text tab 1`] = `
+<div
+  dt_pg_params="rnVersion=8352&tab_id=112"
+  dt_pgid="14"
+  nativeName="View"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColors": Array [
+          "transparent",
+        ],
+        "justifyContent": "center",
+        "overflow": "visible",
+      },
+      Object {
+        "paddingLeft": 12,
+        "paddingRight": 7.5,
+      },
+      null,
+    ]
+  }
+>
+  <p
+    nativeName="Text"
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "colors": Array [
+            "#242424",
+            "#686d74",
+            "#242424",
+            "white",
+          ],
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "opacity": 0.8,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        },
+        null,
+        Object {
+          "width": 49,
+        },
+        Object {
+          "colors": Array [
+            "#242424",
+            "#686d74",
+            "#242424",
+            "white",
+          ],
+        },
+      ]
+    }
+    text="故事馆"
+  >
+    故事馆
+  </p>
+</div>
+`;

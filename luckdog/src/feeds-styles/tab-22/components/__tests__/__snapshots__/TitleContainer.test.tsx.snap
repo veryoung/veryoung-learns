@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TitleContainer/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "marginTop": 8,
+    }
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "marginHorizontal": 12,
+      }
+    }
+  />
+</div>
+`;

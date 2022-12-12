@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rank/> render testing render normal 1`] = `
+<div
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 16,
+      "paddingHorizontal": 12,
+    }
+  }
+  horizontal={true}
+  nativeName="ScrollView"
+  onScroll={[Function]}
+  onScrollEndDrag={[Function]}
+  scrollEventThrottle={100}
+  sendMomentumEvents={true}
+  showsHorizontalScrollIndicator={false}
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "overflow": "scroll",
+    }
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "collapse": false,
+          "flexDirection": "row",
+        },
+        Object {
+          "paddingBottom": 16,
+          "paddingHorizontal": 12,
+        },
+      ]
+    }
+  />
+</div>
+`;

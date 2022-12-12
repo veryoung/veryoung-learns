@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle431/> render testing render adsfree card 1`] = `
+<div
+  nativeName="View"
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "height": 116,
+        "marginTop": 16,
+      },
+    ]
+  }
+>
+  <div
+    nativeName="View"
+    style={Object {}}
+  >
+    <p
+      nativeName="Text"
+      style={
+        Object {
+          "colors": Array [
+            "#FF6E4C",
+            "#794136",
+            "#FF6E4C",
+            "#794136",
+          ],
+          "fontSize": 22,
+          "fontWeight": "bold",
+          "lineHeight": 31,
+          "textAlign": "center",
+        }
+      }
+      text="全场小说限时免广告"
+    >
+      全场小说限时免广告
+    </p>
+    <p
+      nativeName="Text"
+      style={
+        Object {
+          "colors": Array [
+            "rgba(0, 0, 0, 0.7)",
+            "rgba(104, 109, 116, 0.8)",
+            "rgba(0, 0, 0, 0.7)",
+            "rgba(104, 109, 116, 0.8)",
+          ],
+          "fontSize": 14,
+          "lineHeight": 20,
+          "marginBottom": 7,
+          "marginTop": 6,
+          "textAlign": "center",
+        }
+      }
+      text="海量正版小说整本免费"
+    >
+      海量正版小说整本免费
+    </p>
+  </div>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {},
+        ]
+      }
+    >
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "backgroundColors": Array [
+              "#FF6E4C",
+              "#794136",
+              "#FF6E4C",
+              "#794136",
+            ],
+            "borderRadius": 4,
+            "colors": Array [
+              "#ffffffff",
+              "#31363bff",
+              "#ffffffff",
+              "#31363bff",
+            ],
+            "fontFamily": "DINNextLTPro-Medium",
+            "fontSize": 19,
+            "fontWeight": "bold",
+            "height": 28,
+            "lineHeight": 26,
+            "overflow": "hidden",
+            "textAlign": "center",
+            "width": 28,
+          }
+        }
+        text="14"
+      >
+        14
+      </p>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 11,
+          }
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "backgroundColors": Array [
+                  "#FF6E4C",
+                  "#794136",
+                  "#FF6E4C",
+                  "#794136",
+                ],
+                "borderRadius": 2,
+                "height": 3,
+                "marginTop": 4,
+                "width": 3,
+              },
+              Object {
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "backgroundColors": Array [
+                  "#FF6E4C",
+                  "#794136",
+                  "#FF6E4C",
+                  "#794136",
+                ],
+                "borderRadius": 2,
+                "height": 3,
+                "marginTop": 4,
+                "width": 3,
+              },
+              Object {
+                "marginTop": 4,
+              },
+            ]
+          }
+        />
+      </div>
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "backgroundColors": Array [
+              "#FF6E4C",
+              "#794136",
+              "#FF6E4C",
+              "#794136",
+            ],
+            "borderRadius": 4,
+            "colors": Array [
+              "#ffffffff",
+              "#31363bff",
+              "#ffffffff",
+              "#31363bff",
+            ],
+            "fontFamily": "DINNextLTPro-Medium",
+            "fontSize": 19,
+            "fontWeight": "bold",
+            "height": 28,
+            "lineHeight": 26,
+            "overflow": "hidden",
+            "textAlign": "center",
+            "width": 28,
+          }
+        }
+        text="36"
+      >
+        36
+      </p>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 11,
+          }
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "backgroundColors": Array [
+                  "#FF6E4C",
+                  "#794136",
+                  "#FF6E4C",
+                  "#794136",
+                ],
+                "borderRadius": 2,
+                "height": 3,
+                "marginTop": 4,
+                "width": 3,
+              },
+              Object {
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "backgroundColors": Array [
+                  "#FF6E4C",
+                  "#794136",
+                  "#FF6E4C",
+                  "#794136",
+                ],
+                "borderRadius": 2,
+                "height": 3,
+                "marginTop": 4,
+                "width": 3,
+              },
+              Object {
+                "marginTop": 4,
+              },
+            ]
+          }
+        />
+      </div>
+      <p
+        nativeName="Text"
+        style={
+          Object {
+            "backgroundColors": Array [
+              "#FF6E4C",
+              "#794136",
+              "#FF6E4C",
+              "#794136",
+            ],
+            "borderRadius": 4,
+            "colors": Array [
+              "#ffffffff",
+              "#31363bff",
+              "#ffffffff",
+              "#31363bff",
+            ],
+            "fontFamily": "DINNextLTPro-Medium",
+            "fontSize": 19,
+            "fontWeight": "bold",
+            "height": 28,
+            "lineHeight": 26,
+            "overflow": "hidden",
+            "textAlign": "center",
+            "width": 28,
+          }
+        }
+        text="30"
+      >
+        30
+      </p>
+    </div>
+  </div>
+</div>
+`;

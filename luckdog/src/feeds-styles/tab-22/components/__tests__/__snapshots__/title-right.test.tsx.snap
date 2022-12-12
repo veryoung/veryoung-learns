@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RankTabList /> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "flex-end",
+    }
+  }
+>
+  <p
+    nativeName="Text"
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "colors": Array [
+            "#000000",
+            "#686D74",
+            "#000000",
+            "#ffffff",
+          ],
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+      ]
+    }
+    text="查看全部"
+  >
+    查看全部
+  </p>
+  <img
+    alt=""
+    nativeName="Image"
+    noPicMode={
+      Object {
+        "enable": false,
+      }
+    }
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAbCAYAAACjkdXHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAAGwAAAACSVupLAAAA40lEQVQ4EZ1UOQ4CMQyMQDQ8iIqWJ3HDAhXiEJf2KZS0PAX2B7QwRrFkuZo40sheecZJ1nZSSmkDNMACKF5vKL4Z2xJ1G+QWMMiiPmwXeORvysjRdXexe0plSGv4NsHBxCi3cgmOlMqQli7BycQoV8pmr3CmVIY0cwkuJka5U5fgSqkMaeIS3EyMcscuQS0q6TBmPUH6ANqJPfgdRmg5d3xoFWSY6DUEU4Vi6SEaOeH/zsy24b8drnO4w+bujnRvh6cqPM8rd1T6JQm/Yb4cO6b4ypEe1bajW07F8uS8AOmkovUDoSNiNZ1r/OEAAAAASUVORK5CYII="
+    style={
+      Object {
+        "height": 9,
+        "marginLeft": 4,
+        "tintColors": Array [
+          "#000000",
+          "#686D74",
+          "#000000",
+          "#ffffff",
+        ],
+        "width": 5,
+      }
+    }
+  />
+</div>
+`;

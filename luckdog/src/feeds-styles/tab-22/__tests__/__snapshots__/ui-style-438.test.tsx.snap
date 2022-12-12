@@ -1,0 +1,1604 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle438/> render testing render oneRowThreeColumns 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "backgroundColors": Array [
+        "white",
+        "#23282d",
+        "white",
+        "rgba(0, 0, 0, 0.8)",
+      ],
+      "borderRadius": 12,
+      "marginBottom": 0,
+      "marginHorizontal": 12,
+      "marginTop": 16,
+    }
+  }
+>
+  <div
+    nativeName="View"
+    onLayout={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <p
+      nativeName="Text"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "lineHeight": 20,
+            "maxWidth": 252,
+            "paddingBottom": 14,
+            "paddingTop": 14,
+          },
+          Object {},
+        ]
+      }
+      text="热门分类"
+    >
+      热门分类
+    </p>
+    <div
+      className="right-view"
+      nativeName="View"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 14,
+          "paddingTop": 14,
+          "position": "relative",
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "#000000",
+                "#686D74",
+                "#000000",
+                "#ffffff",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+            },
+            Object {},
+          ]
+        }
+        text="全部分类"
+      >
+        全部分类
+      </p>
+      <img
+        alt=""
+        nativeName="Image"
+        noPicMode={
+          Object {
+            "enable": false,
+          }
+        }
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAbCAYAAACjkdXHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAAGwAAAACSVupLAAAA40lEQVQ4EZ1UOQ4CMQyMQDQ8iIqWJ3HDAhXiEJf2KZS0PAX2B7QwRrFkuZo40sheecZJ1nZSSmkDNMACKF5vKL4Z2xJ1G+QWMMiiPmwXeORvysjRdXexe0plSGv4NsHBxCi3cgmOlMqQli7BycQoV8pmr3CmVIY0cwkuJka5U5fgSqkMaeIS3EyMcscuQS0q6TBmPUH6ANqJPfgdRmg5d3xoFWSY6DUEU4Vi6SEaOeH/zsy24b8drnO4w+bujnRvh6cqPM8rd1T6JQm/Yb4cO6b4ypEe1bajW07F8uS8AOmkovUDoSNiNZ1r/OEAAAAASUVORK5CYII="
+        style={
+          Object {
+            "height": 9,
+            "marginLeft": 4,
+            "tintColors": Array [
+              "#000000",
+              "#686D74",
+              "#000000",
+              "#ffffff",
+            ],
+            "width": 5,
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    contentContainerStyle={
+      Object {
+        "paddingHorizontal": 16,
+      }
+    }
+    horizontal={true}
+    nativeName="ScrollView"
+    scrollEventThrottle={10}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "collapse": false,
+            "flexDirection": "row",
+          },
+          Object {
+            "paddingHorizontal": 16,
+          },
+        ]
+      }
+    >
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "#EEBF8A",
+                "#795617",
+                "#FFA200",
+                "#795617",
+              ],
+            },
+            Object {
+              "marginLeft": 0,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#242424",
+                  "#686d74",
+                  "#242424",
+                  "white",
+                ],
+              },
+            ]
+          }
+          text="仙侠"
+        >
+          仙侠
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="奇幻"
+        >
+          奇幻
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="悬疑"
+        >
+          悬疑
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="青春"
+        >
+          青春
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="游戏"
+        >
+          游戏
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="现言"
+        >
+          现言
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="重生"
+        >
+          重生
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="风水"
+        >
+          风水
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="女强"
+        >
+          女强
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="都市修仙"
+        >
+          都市修仙
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 14,
+              "flexDirection": "column",
+              "height": 25,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+            },
+            Object {
+              "backgroundColors": Array [
+                "white",
+                "#23282d",
+                "white",
+                "rgba(0, 0, 0, 0.8)",
+              ],
+              "borderColors": Array [
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+                "rgba(0, 0, 0, 0.1)",
+                "rgba(104, 109, 116, 0.1)",
+              ],
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Array [
+              Object {
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "colors": Array [
+                  "#666666",
+                  "#50555c",
+                  "#24242480",
+                  "#ffffff80",
+                ],
+              },
+            ]
+          }
+          text="机甲"
+        >
+          机甲
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    contentContainerStyle={
+      Object {
+        "marginBottom": 24,
+        "marginTop": 16,
+        "paddingHorizontal": 16,
+      }
+    }
+    horizontal={true}
+    nativeName="ScrollView"
+    onScroll={[Function]}
+    scrollEventThrottle={10}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Array [
+          Object {
+            "collapse": false,
+            "flexDirection": "row",
+          },
+          Object {
+            "marginBottom": 24,
+            "marginTop": 16,
+            "paddingHorizontal": 16,
+          },
+        ]
+      }
+    >
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "width": 56.5,
+            },
+            Object {
+              "marginLeft": 0,
+            },
+          ]
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "position": "relative",
+                },
+                Object {
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+              ]
+            }
+          >
+            <img
+              alt=""
+              nativeName="Image"
+              reportData={
+                Object {
+                  "sourceFrom": "",
+                }
+              }
+              src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F816%2F26063816%2Ft3_26063816.jpg&bookid=1126063816"
+              style={
+                Object {
+                  "0": Object {
+                    "borderRadius": 6,
+                    "height": 76.275,
+                    "width": 56.5,
+                  },
+                  "1": Object {
+                    "borderColors": Array [
+                      "#e5e5e5",
+                      "#31363b",
+                      "#00000010",
+                      "#ffffff10",
+                    ],
+                    "borderWidth": 0.5,
+                  },
+                }
+              }
+            />
+          </div>
+          <p
+            nativeName="Text"
+            numberOfLines={2}
+            style={
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+                "marginBottom": 2,
+                "marginTop": 6,
+              }
+            }
+            text="测试书"
+          >
+            测试书
+          </p>
+        </div>
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="7.8分"
+        >
+          7.8分
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "width": 56.5,
+            },
+            Object {
+              "marginLeft": 26,
+            },
+          ]
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "position": "relative",
+                },
+                Object {
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+              ]
+            }
+          >
+            <img
+              alt=""
+              nativeName="Image"
+              reportData={
+                Object {
+                  "sourceFrom": "",
+                }
+              }
+              src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F592%2F462592%2Ft3_462592.jpg&bookid=1100462592"
+              style={
+                Object {
+                  "0": Object {
+                    "borderRadius": 6,
+                    "height": 76.275,
+                    "width": 56.5,
+                  },
+                  "1": Object {
+                    "borderColors": Array [
+                      "#e5e5e5",
+                      "#31363b",
+                      "#00000010",
+                      "#ffffff10",
+                    ],
+                    "borderWidth": 0.5,
+                  },
+                }
+              }
+            />
+          </div>
+          <p
+            nativeName="Text"
+            numberOfLines={2}
+            style={
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+                "marginBottom": 2,
+                "marginTop": 6,
+              }
+            }
+            text="庆余年"
+          >
+            庆余年
+          </p>
+        </div>
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="9.5分"
+        >
+          9.5分
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "width": 56.5,
+            },
+            Object {
+              "marginLeft": 26,
+            },
+          ]
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "position": "relative",
+                },
+                Object {
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+              ]
+            }
+          >
+            <img
+              alt=""
+              nativeName="Image"
+              reportData={
+                Object {
+                  "sourceFrom": "",
+                }
+              }
+              src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F366%2F660366%2Ft3_660366.jpg&bookid=1100660366"
+              style={
+                Object {
+                  "0": Object {
+                    "borderRadius": 6,
+                    "height": 76.275,
+                    "width": 56.5,
+                  },
+                  "1": Object {
+                    "borderColors": Array [
+                      "#e5e5e5",
+                      "#31363b",
+                      "#00000010",
+                      "#ffffff10",
+                    ],
+                    "borderWidth": 0.5,
+                  },
+                }
+              }
+            />
+          </div>
+          <p
+            nativeName="Text"
+            numberOfLines={2}
+            style={
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+                "marginBottom": 2,
+                "marginTop": 6,
+              }
+            }
+            text="都市捉妖人"
+          >
+            都市捉妖人
+          </p>
+        </div>
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="9.4分"
+        >
+          9.4分
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "width": 56.5,
+            },
+            Object {
+              "marginLeft": 26,
+            },
+          ]
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "position": "relative",
+                },
+                Object {
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+              ]
+            }
+          >
+            <img
+              alt=""
+              nativeName="Image"
+              reportData={
+                Object {
+                  "sourceFrom": "",
+                }
+              }
+              src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F738%2F14608738%2Ft3_14608738.jpg&bookid=1114608738"
+              style={
+                Object {
+                  "0": Object {
+                    "borderRadius": 6,
+                    "height": 76.275,
+                    "width": 56.5,
+                  },
+                  "1": Object {
+                    "borderColors": Array [
+                      "#e5e5e5",
+                      "#31363b",
+                      "#00000010",
+                      "#ffffff10",
+                    ],
+                    "borderWidth": 0.5,
+                  },
+                }
+              }
+            />
+          </div>
+          <p
+            nativeName="Text"
+            numberOfLines={2}
+            style={
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+                "marginBottom": 2,
+                "marginTop": 6,
+              }
+            }
+            text="圣墟"
+          >
+            圣墟
+          </p>
+        </div>
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="9.3分"
+        >
+          9.3分
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "width": 56.5,
+            },
+            Object {
+              "marginLeft": 26,
+            },
+          ]
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "position": "relative",
+                },
+                Object {
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+              ]
+            }
+          >
+            <img
+              alt=""
+              nativeName="Image"
+              reportData={
+                Object {
+                  "sourceFrom": "",
+                }
+              }
+              src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F113%2F20179113%2Ft3_20179113.jpg&bookid=1120179113"
+              style={
+                Object {
+                  "0": Object {
+                    "borderRadius": 6,
+                    "height": 76.275,
+                    "width": 56.5,
+                  },
+                  "1": Object {
+                    "borderColors": Array [
+                      "#e5e5e5",
+                      "#31363b",
+                      "#00000010",
+                      "#ffffff10",
+                    ],
+                    "borderWidth": 0.5,
+                  },
+                }
+              }
+            />
+          </div>
+          <p
+            nativeName="Text"
+            numberOfLines={2}
+            style={
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+                "marginBottom": 2,
+                "marginTop": 6,
+              }
+            }
+            text="学霸"
+          >
+            学霸
+          </p>
+        </div>
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="7.7分"
+        >
+          7.7分
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "width": 56.5,
+            },
+            Object {
+              "marginLeft": 26,
+            },
+          ]
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "position": "relative",
+                },
+                Object {
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+              ]
+            }
+          >
+            <img
+              alt=""
+              nativeName="Image"
+              reportData={
+                Object {
+                  "sourceFrom": "",
+                }
+              }
+              src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F839%2F35563839%2Ft3_35563839.jpg&bookid=1135563839"
+              style={
+                Object {
+                  "0": Object {
+                    "borderRadius": 6,
+                    "height": 76.275,
+                    "width": 56.5,
+                  },
+                  "1": Object {
+                    "borderColors": Array [
+                      "#e5e5e5",
+                      "#31363b",
+                      "#00000010",
+                      "#ffffff10",
+                    ],
+                    "borderWidth": 0.5,
+                  },
+                }
+              }
+            />
+          </div>
+          <p
+            nativeName="Text"
+            numberOfLines={2}
+            style={
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+                "marginBottom": 2,
+                "marginTop": 6,
+              }
+            }
+            text="神棍不好当"
+          >
+            神棍不好当
+          </p>
+        </div>
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="8.0分"
+        >
+          8.0分
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        onClick={[Function]}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "width": 56.5,
+            },
+            Object {
+              "marginLeft": 26,
+            },
+          ]
+        }
+      >
+        <div
+          nativeName="View"
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <div
+            nativeName="View"
+            style={
+              Array [
+                Object {
+                  "position": "relative",
+                },
+                Object {
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+              ]
+            }
+          >
+            <img
+              alt=""
+              nativeName="Image"
+              reportData={
+                Object {
+                  "sourceFrom": "",
+                }
+              }
+              src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F84%2F19818084%2Ft3_19818084.jpg&bookid=1119818084"
+              style={
+                Object {
+                  "0": Object {
+                    "borderRadius": 6,
+                    "height": 76.275,
+                    "width": 56.5,
+                  },
+                  "1": Object {
+                    "borderColors": Array [
+                      "#e5e5e5",
+                      "#31363b",
+                      "#00000010",
+                      "#ffffff10",
+                    ],
+                    "borderWidth": 0.5,
+                  },
+                }
+              }
+            />
+          </div>
+          <p
+            nativeName="Text"
+            numberOfLines={2}
+            style={
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+                "marginBottom": 2,
+                "marginTop": 6,
+              }
+            }
+            text="神医凰后（《且听凤鸣》原著）"
+          >
+            神医凰后（《且听凤鸣》原著）
+          </p>
+        </div>
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="9.5分"
+        >
+          9.5分
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

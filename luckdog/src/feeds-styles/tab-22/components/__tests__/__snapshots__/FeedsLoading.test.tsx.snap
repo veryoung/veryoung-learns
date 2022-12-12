@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsLoading/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <img
+    alt=""
+    nativeName="Image"
+    noPicMode={
+      Object {
+        "enable": false,
+      }
+    }
+    reportData={
+      Object {
+        "sourceFrom": "FeedsLoading",
+      }
+    }
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAP1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////9Du/pqAAAAFXRSTlMAzA4askovaXKffr+WWLmoJWCPiEAQ8x8bAAACf0lEQVRo3r2a3ZKDMAiFEfKv0ah9/2fdKXXKTWc2bvfku+qFSuEQogHqhYOPR97cPE3z6vKZamD6T9gXN33AnV7oX5BoBj7gYvvah5qnX3GVv3EiTcZ2Rh+aMBGzBL+XbTKK/NVEeT8jx0AfCPvynRl+e7F47opnYbqJX69470K/0NJ17erpDrJcJjpv8+5ymvp5zGaik/q6pf+OS434Bw0fvVfnl+dCN5FzTb2XvsJbCUhbVY1AQILqdzABaWqjEBLRWCVCwqr5TlAy3g9KeD3ooXlFUOSZWI4JitbdQFC81RIYvH7cDQCZJQRFbP/AUZ6ZRVjEdk4caYAjPMKRqo6AybACz+dWSRHEGjGxm/6KuMVe3svPIWS3iri9c4sJAqsSl7VMGDSnqsUNw37t6A65WQVdgq+wEQQTPGgCwNiecVLdT4JRVPmI0t2UT3RAK/AVqIxKLkuvrMo0giGaww5Vgi2HV5pRlcuMzKRrEYc+f4iRIeECCm/ZhU7hpqVxxGIcUVYOdIHUx6NL/amBGrJpMXY16vY74kUC90pkuhf4y921QAT9msoDXrgd+tNhUb1xH0H2ZPDn3K45hf0wVbUr+BPba27BDgvMkYQ79jBHBHaAY44U8FFUVEdgh2r2vxPseNAW+8rYg86quYQ9sg3aTIIdPltrYRbsMfqhTTRsQ6BoZsFaG/ZvM7ZJs0+qLqrdZH6sgmqcmR5zQ7YA+VAbAdnMDE5j1ZBt2aq3OkE1mK2JnxnXKqc4KQnV9LfZgvkxYHxBUIMYsjsbxMCMlPhlukiMGY6JuXc45v6Yj7Tg47lNRhL0wFKuDB+9EvAQWfG9Ptwfh3NbPqIP3QZ+AFA+E3UIPjJ9AAAAAElFTkSuQmCC"
+    style={
+      Object {
+        "0": Object {
+          "backgroundColor": "transparent",
+          "height": 22.5,
+          "transform": Array [
+            Object {
+              "rotate": Animation {
+                "animationId": undefined,
+                "delay": 0,
+                "destroy": [Function],
+                "direction": "center",
+                "duration": 1000,
+                "inputRange": Array [],
+                "mode": "timing",
+                "onHippyAnimationCancel": [Function],
+                "onHippyAnimationEnd": [Function],
+                "onHippyAnimationRepeat": [Function],
+                "onHippyAnimationStart": [Function],
+                "onRNfqbAnimationCancel": [Function],
+                "onRNfqbAnimationEnd": [Function],
+                "onRNfqbAnimationRepeat": [Function],
+                "onRNfqbAnimationStart": [Function],
+                "outputRange": Array [],
+                "repeatCount": -1,
+                "startValue": 0,
+                "timingFunction": "linear",
+                "toValue": 360,
+                "valueType": "deg",
+              },
+            },
+          ],
+          "width": 22.5,
+        },
+        "1": Object {},
+      }
+    }
+  />
+</div>
+`;

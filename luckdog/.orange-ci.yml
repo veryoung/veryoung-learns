@@ -1,0 +1,43 @@
+.check: &check
+    - network: idc
+      docker:
+        image: node
+      stages:
+        - name: 检测当前分支是否已 rebase master 分支
+          type: git:rebaseCheck
+          options:
+            target: master
+        - name: make message
+          script: echo "接收到一个新的 Merge Request，请及时处理 ！\n项目：${ORANGE_REPO_SLUG} \n合入分支：${ORANGE_MERGE_REQUEST_BRANCH} -> ${ORANGE_BRANCH} \n提交信息：${ORANGE_LATEST_COMMIT_MESSAGE} \nMR发起人：${ORANGE_MERGE_REQUEST_PROPOSER} \ngit 对比：[${ORANGE_EVENT_URL}](${ORANGE_EVENT_URL})" > message.txt
+        - name: message
+          type: wework:message
+          options:
+            robot: 7ab2588c-2399-450e-a0ed-57949bb49a54
+            fromFile: message.txt
+        - name: 将注释输出为文件
+          type: git:commitList
+          options:
+            toFile: orange-commits.json
+        - name: 安装tnpm
+          script: npm install @tencent/tnpm -g --registry=https://mirrors.tencent.com/npm/
+        - name: 依赖安装
+          script: tnpm install
+        - name: 检查eslint
+          script: npm run lint
+        - name: 构建&发布
+          script: npm run pack
+        - name: message
+          type: wework:message
+          options:
+            message: 请到 [http://qrnm.wsd.com/#/](http://qrnm.wsd.com/#/) 手动放量构建的bundle，放量的顺序是[2%, 30%, 100%]。
+        - name: make message
+          script: echo "#### ${ORANGE_REPO_SLUG} 自动构建成功🎉\n📋 提交信息：\n> ${ORANGE_LATEST_COMMIT_MESSAGE} \n👨🏻‍💻 构建触发人：${ORANGE_BUILD_USER} \n💬 git 对比：[${ORANGE_EVENT_URL}](${ORANGE_EVENT_URL}) \n构建日志：[http://orange-ci.oa.com/build/log?sn=${ORANGE_BUILD_ID}](http://orange-ci.oa.com/build/log?sn=${ORANGE_BUILD_ID}) \n\n请到 [http://qrnm.wsd.com/#/](http://qrnm.wsd.com/#/) 手动放量bundle，放量的顺序是[2%, 30%, 100%]\n 记得更新[发版记录](https://iwiki.woa.com/pages/viewpage.action?pageId=510666352)" > message.txt
+        - name: message
+          type: wework:message
+          options:
+            fromFile: message.txt
+
+master:
+  merge_request:
+    - <<: *check
+

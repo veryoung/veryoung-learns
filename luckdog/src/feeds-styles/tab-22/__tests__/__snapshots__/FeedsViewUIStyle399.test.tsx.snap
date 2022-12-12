@@ -1,0 +1,1065 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedsViewUIStyle399/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  style={
+    Array [
+      Object {
+        "backgroundColors": Array [
+          "white",
+          "#23282d",
+          "white",
+          "rgba(0, 0, 0, 0.8)",
+        ],
+        "borderRadius": 12,
+        "marginBottom": 0,
+        "marginHorizontal": 12,
+        "marginTop": 16,
+      },
+      Object {
+        "transform": Array [
+          Object {
+            "scale": AnimationSet {
+              "animationId": undefined,
+              "animationList": Array [
+                Object {
+                  "animationId": undefined,
+                  "follow": true,
+                },
+                Object {
+                  "animationId": undefined,
+                  "follow": true,
+                },
+              ],
+              "onAnimationEndCallback": [Function],
+              "onHippyAnimationCancel": [Function],
+              "onHippyAnimationEnd": [Function],
+              "onHippyAnimationRepeat": [Function],
+              "onHippyAnimationStart": [Function],
+              "onRNfqbAnimationCancel": [Function],
+              "onRNfqbAnimationEnd": [Function],
+              "onRNfqbAnimationRepeat": [Function],
+              "onRNfqbAnimationStart": [Function],
+            },
+          },
+        ],
+      },
+    ]
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Array [
+        Object {
+          "height": 0,
+        },
+      ]
+    }
+  />
+  <div
+    nativeName="View"
+    onClick={[Function]}
+    style={
+      Object {
+        "collapsable": false,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      onLayout={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 20,
+              "maxWidth": 252,
+              "paddingBottom": 14,
+              "paddingTop": 14,
+            },
+            Object {},
+          ]
+        }
+        text="都市推荐"
+      >
+        都市推荐
+      </p>
+      <div
+        className="change-view"
+        nativeName="View"
+        onClick={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "paddingBottom": 14,
+            "paddingTop": 14,
+            "position": "relative",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "colors": Array [
+                  "#000000",
+                  "#686D74",
+                  "#000000",
+                  "#ffffff",
+                ],
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              Object {},
+            ]
+          }
+          text="换一换"
+        >
+          换一换
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "paddingLeft": 3,
+        "paddingRight": 3,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F482%2F22217482%2Ft3_22217482.jpg&bookid=1122217482"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="系统让我去算命"
+        >
+          系统让我去算命
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="8.5分"
+        >
+          8.5分
+        </p>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F66%2F15036066%2Ft3_15036066.jpg&bookid=1115036066"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="超能重工"
+        >
+          超能重工
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="8.0分"
+        >
+          8.0分
+        </p>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F570%2F29940570%2Ft3_29940570.jpg&bookid=1129940570"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="开局签到就无敌"
+        >
+          开局签到就无敌
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="7.3分"
+        >
+          7.3分
+        </p>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F913%2F25304913%2Ft3_25304913.jpg&bookid=1125304913"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="我就这样出名了"
+        >
+          我就这样出名了
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="8.0分"
+        >
+          8.0分
+        </p>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F751%2F31673751%2Ft3_31673751.jpg&bookid=1131673751"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="以综艺之名"
+        >
+          以综艺之名
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="7.0分"
+        >
+          7.0分
+        </p>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F516%2F25848516%2Ft3_25848516.jpg&bookid=1125848516"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="败家导演"
+        >
+          败家导演
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="8.6分"
+        >
+          8.6分
+        </p>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F852%2F36565852%2Ft3_36565852.jpg&bookid=1136565852"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="开局一吨黄金被学姐曝光了"
+        >
+          开局一吨黄金被学姐曝光了
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="8.1分"
+        >
+          8.1分
+        </p>
+      </div>
+    </div>
+    <div
+      nativeName="View"
+      onClick={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "marginBottom": 24,
+          "marginLeft": 13,
+          "marginRight": 13,
+          "width": 56.5,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <div
+          nativeName="View"
+          style={
+            Array [
+              Object {
+                "position": "relative",
+              },
+              Object {
+                "height": 76.275,
+                "width": 56.5,
+              },
+            ]
+          }
+        >
+          <img
+            alt=""
+            nativeName="Image"
+            reportData={
+              Object {
+                "sourceFrom": "2_17_1616377703882_2751417393",
+              }
+            }
+            src="https://cdn.bookimg.html5.qq.com/pic?format=2&flag=3&picurl=http%3A%2F%2Fwfqqreader.3g.qq.com%2Fcover%2F29%2F36249029%2Ft3_36249029.jpg&bookid=1136249029"
+            style={
+              Object {
+                "0": Object {
+                  "borderRadius": 6,
+                  "height": 76.275,
+                  "width": 56.5,
+                },
+                "1": Object {
+                  "borderColors": Array [
+                    "#e5e5e5",
+                    "#31363b",
+                    "#00000010",
+                    "#ffffff10",
+                  ],
+                  "borderWidth": 0.5,
+                },
+              }
+            }
+          />
+        </div>
+        <p
+          nativeName="Text"
+          numberOfLines={2}
+          style={
+            Object {
+              "colors": Array [
+                "#242424",
+                "#686d74",
+                "#242424",
+                "white",
+              ],
+              "fontSize": 12,
+              "lineHeight": 16,
+              "marginBottom": 2,
+              "marginTop": 4,
+            }
+          }
+          text="都市：开局扫码赚了一个亿"
+        >
+          都市：开局扫码赚了一个亿
+        </p>
+      </div>
+      <div
+        nativeName="View"
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <p
+          nativeName="Text"
+          style={
+            Object {
+              "colors": Array [
+                "#FF796E",
+                "#794543",
+                "#FF796E",
+                "#794543",
+              ],
+              "fontFamily": "PingFangSC-Semibold",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "lineHeight": 16,
+            }
+          }
+          text="7.2分"
+        >
+          7.2分
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

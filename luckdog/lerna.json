@@ -1,0 +1,19 @@
+{
+  "version": "0.0.2",
+  "packages": [
+    "./"
+  ],
+  "npmClient": "tnpm",
+  "npmClientArgs": [
+    "--no-lockfile"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": ["node_modules", "__tests__", "__luckbox/*", "__luckdog/*"],
+      "message": "chore(release): publish %v --story=863845751"
+    },
+    "version": {
+      "push": false
+    }
+  }
+}

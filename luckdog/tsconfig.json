@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "novelfeeds",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "ES6",
+    "sourceMap": false,
+    "declaration": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowJs": false,
+    "strictNullChecks": true,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@test/*": [
+        "test/*"
+      ],
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "./types/global",
+      "jest",
+      "node"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "index.d.ts",
+    "__mocks__"
+  ]
+}

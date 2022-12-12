@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextPic/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  onClick={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      },
+      Object {},
+    ]
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+        "flexWrap": "wrap",
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={Object {}}
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={2}
+        style={
+          Object {
+            "colors": Array [
+              "#242424",
+              "#686d74",
+              "#242424",
+              "white",
+            ],
+            "fontSize": 16,
+            "lineHeight": 24,
+            "textAlign": "justify",
+          }
+        }
+        text=""
+      >
+        
+      </p>
+    </div>
+    <div
+      nativeName="View"
+      style={Object {}}
+    >
+      <p
+        nativeName="Text"
+        numberOfLines={1}
+        style={
+          Object {
+            "colors": Array [
+              "#8f8f8f",
+              "#42464d",
+              "#24242460",
+              "#ffffff60",
+            ],
+            "fontSize": 12,
+            "lineHeight": 16,
+            "marginTop": 4,
+          }
+        }
+        text=""
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    nativeName="View"
+    style={Object {}}
+  >
+    <img
+      alt=""
+      nativeName="Image"
+      reportData={
+        Object {
+          "sourceFrom": undefined,
+        }
+      }
+      resizeMode="cover"
+      style={
+        Object {
+          "borderRadius": 2,
+          "height": 68,
+          "marginLeft": 12,
+          "width": 91,
+        }
+      }
+    />
+  </div>
+</div>
+`;

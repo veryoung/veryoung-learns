@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PicTextBtn/> render testing render normal 1`] = `
+<div
+  nativeName="View"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColors": Array [
+        "transparent",
+        "transparent",
+        "transparent",
+        "transparent",
+      ],
+      "marginBottom": 0,
+    }
+  }
+>
+  <div
+    nativeName="View"
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 8,
+      }
+    }
+  >
+    <div
+      nativeName="View"
+      style={
+        Object {
+          "height": 60,
+          "marginRight": 10,
+          "width": 45,
+        }
+      }
+    >
+      <div
+        nativeName="View"
+        style={Object {}}
+      >
+        <img
+          alt=""
+          nativeName="Image"
+          reportData={
+            Object {
+              "sourceFrom": "",
+            }
+          }
+          src="https://novel.imqq.com/bookshelf/images/huodong/free-1572428142.png"
+          style={
+            Object {
+              "0": Object {
+                "borderRadius": 2,
+                "height": 60,
+                "width": 45,
+                "zIndex": 1,
+              },
+              "1": undefined,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

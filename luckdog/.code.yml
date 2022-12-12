@@ -1,0 +1,71 @@
+# 参考文档: https://iwiki.woa.com/pages/viewpage.action?pageId=113587682
+
+# 必须要有这个节点, 并且trunk_name不能为空; branch_type_A,branch_type_B,branch_type_C任意配置一个
+branch:
+  trunk_name: master
+  branch_type_A:
+    personal_feature:
+      pattern: 'feature/.*'
+    bugfix:
+      pattern: 'bugfix/.*'
+    tag:
+      pattern: 'versionnumber_yyyyMMddHHmm'
+      # versionnumber特指版本号
+      versionnumber: 'Major.Feature.Fix.BuildNo'
+
+# 必须要有整个节点并且artifact_type不能为空
+artifact:
+  - path: '/'
+    # 发布单元名称，如AndroidQQ、epc-demo
+    artifact_name: 'novelfeeds'
+    # 发布单元类型，可选类型字段有，移动端/PC端/后台单体应用/后台微服务/web/sdk/lib/框架
+    # 比如发布单元为腾讯视频Android客户端，则发布单元类型为如下样例 移动端
+    artifact_type: 'web'
+
+# source主要定义项目仓库哪些目录代码无需参与代码度量考核，分自动化测试代码、工具、框架自动生成代码、第三方团队代码
+source:
+  # 文件或目录使用绝对路径，绝对路径按代码库根目录计算，以/开头。
+  # 提供产品代码库中编写的测试代码存放目录或文件名格式，以便代码检查时进行排除处理
+  # 不要使用.*/等正则表达式屏蔽掉所有代码，会使得代码存在风险，还会导致Coverity扫不到任何代码而失败
+  test_source:
+    #用于匹配文件; 匹配方式为正则表达式，例如['.*/java/test/.*', '.*/test.java']
+    filepath_regex: ['./test/.*', './eslintrc.js']
+
+file:
+  - path: '.*'
+    owners: ['allanyu', 'ricoxiao', 'hilonliao', 'azeryang']
+    owner_rule: 1
+
+code-style:
+  # 打印更多调试信息
+  debug: true
+  # 开启增量扫描模式
+  patch-mode: true
+  js:
+    # 排除的路径 默认忽略*node_modules*
+    exclusion-path:
+      - 'node_modules'
+    # 当前语言所扫描的目录
+    scan-dirs: ['app']
+
+# 针对整个项目默认代码评审配置
+code_review:
+  # 定义产品工蜂cr的评论标签
+  restrict_labels:
+    ['CR-编程规范', 'CR-业务逻辑', 'CR-边界逻辑', 'CR-代码架构', 'CR-性能影响', 'CR-安全性', 'CR-可测试性', 'CR-可读性']
+  # 评审人
+  reviewers: ['hilonliao', 'allanyu', 'azeryang', 'ricoxiao']
+  # 必要评审人
+  necessary_reviewers: ['azeryang', 'wenluan' ]
+
+hookman:
+  skip-path: ['node_modules']
+
+log-helper:
+  debug: false
+  # 启用自动纠正能力
+  auto-correct: true
+  # 是否纠正angular规范
+  correct-angular: true
+  # 是否纠正tapd规范
+  correct-tapd: true
